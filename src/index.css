@@ -27,6 +27,28 @@
     --radius: 1rem;
 }
 
+.dark {
+    --background: 222 47% 10%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 222 47% 16%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 15% 18%;
+    --muted-foreground: 215 20% 78%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 20% 22%;
+    --input: 222 20% 22%;
+    --ring: 217 91% 60%;
+}
+
 * {
     border-color: hsl(var(--border));
 }
@@ -117,4 +139,4 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
     @apply bg-gray-400;
-}
+}/* tailwind refresh */
