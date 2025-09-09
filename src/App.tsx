@@ -11,6 +11,9 @@ import SmoothScroll from '@/components/SmoothScroll';
 import LoadingSpinner from '@/components/LoadingSpinner';
 import { initGA } from '@/lib/analytics';
 import { initPixels } from '@/lib/pixels';
+import NotFound from '@/pages/NotFound'
+import { initWebVitals } from '@/lib/webvitals'
+import { initSentry } from '@/lib/sentry'
 
 // Lazy load components
 const Hero = React.lazy(() => import('@/components/Hero'));
@@ -131,8 +134,10 @@ const HomePage: React.FC = () => {
 function App() {
   // Initialize Analytics and Pixels
   React.useEffect(() => {
+    initSentry();
     initGA();
     initPixels();
+    initWebVitals();
   }, []);
 
   return (
@@ -202,6 +207,7 @@ function App() {
                     </Suspense>
                   }
                 />
+                <Route path="*" element={<NotFound />} />
               </Routes>
 
               <Footer />

@@ -20,10 +20,19 @@
     
     <meta name="generator" content="FixDrive" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <title>FixDrive - Your personal driver. Simplified.</title>
 </head>
 <body>
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
+<script>
+  // Не регистрируем SW в dev, чтобы не мешать HMR (WebSocket)
+  if ('serviceWorker' in navigator && location.hostname !== 'localhost') {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').catch(() => {})
+    })
+  }
+  </script>
 </body>
 </html>

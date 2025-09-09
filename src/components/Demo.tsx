@@ -36,10 +36,10 @@ const Demo: React.FC = () => {
                     className="max-w-xl mx-auto"
                 >
                     <div 
-                        className="aspect-w-16 aspect-h-2 rounded-2xl overflow-hidden card-shadow relative group cursor-pointer"
+                        className="aspect-w-9 aspect-h-16 sm:aspect-w-16 sm:aspect-h-9 rounded-2xl overflow-hidden card-shadow relative group cursor-pointer"
                         onClick={handlePlayVideo}
                     >
-                        <img alt="Demo video thumbnail showing the FixDrive app" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1519687730002-25d818c893cc" />
+                        <img alt="Demo image showing the FixDrive app" className="w-full h-full object-cover" src="/assets/img.png" />
                         <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors flex items-center justify-center">
                             <PlayCircle className="w-20 h-20 text-white/80 group-hover:text-white transition-colors transform group-hover:scale-110" />
                         </div>

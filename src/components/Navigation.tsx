@@ -153,7 +153,7 @@ const Navigation: React.FC = () => {
                 <Link
                   key={link.href}
                   to={link.href}
-                  className={`font-medium nav-item rounded-md px-3 py-1.5 border border-transparent hover:border-primary ${
+                  className={`font-medium nav-item rounded-md px-3 py-1.5 border border-transparent hover:border-primary focus:outline-none focus-visible:outline-none focus:ring-0 focus:ring-offset-0 ${
                     isHomePage ? (isScrolled ? 'text-foreground' : 'text-white') : 'text-foreground'
                   }`}
                   aria-label={`Navigate to ${link.name} page`}
@@ -164,7 +164,7 @@ const Navigation: React.FC = () => {
                 <button
                   key={link.id}
                   onClick={() => link.id && scrollToSection(link.id)}
-                  className={`font-medium transition-colors rounded-md px-3 py-1.5 border border-transparent hover:border-primary ${
+                  className={`font-medium transition-colors rounded-md px-3 py-1.5 border border-transparent hover:border-primary focus:outline-none focus-visible:outline-none focus:ring-0 focus:ring-offset-0 ${
                     isHomePage ? (isScrolled ? 'text-foreground' : 'text-white') : 'text-foreground'
                   }`}
                   aria-label={`Navigate to ${link.name} section`}
@@ -180,7 +180,7 @@ const Navigation: React.FC = () => {
               {t('header.nav.contact_sales')}
             </button>
             <div className="flex items-center ml-4">
-              <Switch checked={isDark} onCheckedChange={(checked: boolean) => setIsDark(checked)} />
+              <Switch aria-label="Toggle theme" checked={isDark} onCheckedChange={(checked: boolean) => setIsDark(checked)} />
             </div>
             <div className="ml-4">
               <LanguagePicker inverted={isHomePage && !isScrolled} />
@@ -189,7 +189,7 @@ const Navigation: React.FC = () => {
 
           {/* Mobile controls (outside hamburger) */}
           <div className="md:hidden flex items-center gap-3">
-            <Switch checked={isDark} onCheckedChange={(checked: boolean) => setIsDark(checked)} />
+            <Switch aria-label="Toggle theme" checked={isDark} onCheckedChange={(checked: boolean) => setIsDark(checked)} />
             <LanguagePicker inverted={isHomePage && !isScrolled} />
           </div>
 

@@ -45,13 +45,26 @@ const Newsletter: React.FC = memo(() => {
           } catch (_) {
             responseOk = false;
           }
+          // Retry logic with backoff
           if (!responseOk) {
-            // Fallback: fire-and-forget without reading response (bypass CORS restrictions)
-            await fetch(endpoint, {
-              method: 'POST',
-              mode: 'no-cors',
-              body: JSON.stringify(subscriptionData),
-            });
+            for (let i = 0; i < 2 && !responseOk; i++) {
+              await new Promise((r) => setTimeout(r, (i + 1) * 500));
+              try {
+                const r2 = await fetch(endpoint, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                  body: JSON.stringify(subscriptionData),
+                });
+                const jr2 = await r2.json().catch(() => ({ ok: false }));
+                responseOk = r2.ok && jr2?.ok !== false;
+              } catch (_) {
+                responseOk = false;
+              }
+            }
+          }
+          // Final fire-and-forget without CORS if still not ok
+          if (!responseOk) {
+            fetch(endpoint, { method: 'POST', mode: 'no-cors', body: JSON.stringify(subscriptionData) }).catch(() => {});
           }
 
           // For now, show success message
@@ -64,10 +77,11 @@ const Newsletter: React.FC = memo(() => {
           setEmail('');
         } catch (error) {
           console.error('Error getting location data:', error);
-          // Fallback without location data
+          // Graceful fallback UI
           toast({
-            title: t('newsletter.success.title'),
+            title: t('newsletter.error.title'),
             description: t('newsletter.success.fallback'),
+            variant: 'default',
           });
           setEmail('');
         }

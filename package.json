@@ -13,7 +13,9 @@
     "optimize:images": "node scripts/optimize-images.mjs",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "e2e:install": "npx playwright install --with-deps",
+    "e2e": "concurrently -k \"npm run dev\" \"wait-on http://localhost:5173 && playwright test\""
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
@@ -52,6 +54,8 @@
     "@babel/traverse": "^7.27.0",
     "@babel/types": "^7.27.0",
     "@eslint/js": "^9.35.0",
+    "@playwright/test": "^1.55.0",
+    "@sentry/react": "^10.10.0",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
@@ -63,6 +67,7 @@
     "@typescript-eslint/parser": "^8.43.0",
     "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.16",
+    "concurrently": "^9.2.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-react-app": "^7.0.1",
@@ -80,6 +85,8 @@
     "terser": "^5.39.0",
     "typescript": "^5.9.2",
     "vite": "^5.4.20",
-    "vitest": "^3.2.4"
+    "vitest": "^3.2.4",
+    "wait-on": "^8.0.4",
+    "web-vitals": "^5.1.0"
   }
 }
