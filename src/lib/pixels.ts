@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 // Meta Pixel and LinkedIn Insight Tag integration
 declare global {
   interface Window {
-    // eslint-disable-line no-unused-vars
-    fbq: (...args: any[]) => void; // eslint-disable-line no-unused-vars
+    fbq: (..._args: unknown[]) => void;
+    lintrk: (..._args: unknown[]) => void;
     _linkedin_partner_id: string;
     _linkedin_data_partner_ids: string[];
   }
@@ -75,13 +76,13 @@ export const initLinkedInPixel = () => {
 };
 
 // Track custom events
-export const trackMetaEvent = (eventName: string, parameters?: Record<string, any>) => {
+export const trackMetaEvent = (eventName: string, parameters?: Record<string, unknown>) => {
   if (typeof window !== 'undefined' && window.fbq) {
     window.fbq('track', eventName, parameters);
   }
 };
 
-export const trackLinkedInEvent = (eventName: string, parameters?: Record<string, any>) => {
+export const trackLinkedInEvent = (eventName: string, parameters?: Record<string, unknown>) => {
   if (typeof window !== 'undefined' && window.lintrk) {
     window.lintrk('track', { conversion_id: eventName, ...parameters });
   }

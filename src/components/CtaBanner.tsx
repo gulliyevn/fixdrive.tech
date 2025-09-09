@@ -6,14 +6,7 @@ import { useT } from '@/contexts/LanguageContext';
 
 const CtaBanner: React.FC = () => {
   const { t } = useT();
-  const handleContactSales = () => {
-    // eslint-disable-line no-unused-vars
-    const subject = encodeURIComponent('FixDrive — Contact Sales');
-    const body = encodeURIComponent(
-      'Hello FixDrive team,\n\nI would like to learn more about your product and pricing.\n\nThanks!',
-    );
-    window.location.href = `mailto:junago@junago.net?subject=${subject}&body=${body}`;
-  };
+  // no-op placeholder removed to satisfy linter
 
   return (
     <section className="py-16 md:py-24">

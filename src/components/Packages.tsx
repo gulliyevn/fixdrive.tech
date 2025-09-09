@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, memo, useMemo, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -9,7 +10,6 @@ import { Check, Info } from 'lucide-react';
 import { useT } from '@/contexts/LanguageContext';
 
 type PackageTier = {
-  // eslint-disable-line no-unused-vars
   name: string;
   price: number;
   perks: string[];
@@ -18,7 +18,6 @@ type PackageTier = {
 };
 
 const getPackages = (t: (key: string) => string) => ({
-  // eslint-disable-line no-unused-vars
   monthly: [
     {
       name: t('pricing.tiers.free.name'),
@@ -176,7 +175,7 @@ const Packages: React.FC = memo(() => {
         </div>
 
         <div className="grid lg:grid-cols-4 gap-8 items-stretch">
-          {currentPackages.map((pkg, index) => (
+          {currentPackages.map((pkg: PackageTier, index: number) => (
             <motion.div
               key={pkg.name}
               className={`bg-card rounded-2xl p-8 flex flex-col card-shadow relative hover:shadow-xl transition-all duration-300 cursor-pointer ${pkg.popular ? 'border-2 border-primary' : ''}`}

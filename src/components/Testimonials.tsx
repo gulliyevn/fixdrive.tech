@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React, { memo, useMemo } from 'react';
 import { motion } from 'framer-motion';
@@ -5,7 +6,6 @@ import { Star, Building, User, Briefcase } from 'lucide-react';
 import { useT } from '@/contexts/LanguageContext';
 
 type Testimonial = {
-  // eslint-disable-line no-unused-vars
   name: string;
   role: string;
   text: string;
@@ -15,7 +15,6 @@ type Testimonial = {
 };
 
 const getTestimonials = (t: (key: string) => string): Testimonial[] => [
-  // eslint-disable-line no-unused-vars
   {
     name: t('reviews.testimonials.sarah.name'),
     role: t('reviews.testimonials.sarah.role'),
@@ -60,7 +59,7 @@ const Testimonials: React.FC = memo(() => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t('reviews.subtitle')}</p>
         </motion.div>
         <div className="grid lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
+          {testimonials.map((testimonial: Testimonial, index: number) => (
             <motion.div
               key={index}
               className="bg-card p-8 rounded-2xl card-shadow flex flex-col card-subtle"

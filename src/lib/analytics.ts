@@ -1,8 +1,8 @@
+/* eslint-disable no-unused-vars */
 // Google Analytics 4 integration
 declare global {
   interface Window {
-    // eslint-disable-line no-unused-vars
-    gtag: (...args: any[]) => void; // eslint-disable-line no-unused-vars
+    gtag: (..._args: unknown[]) => void;
   }
 }
 
@@ -18,9 +18,10 @@ export const initGA = () => {
     document.head.appendChild(script);
 
     // Initialize gtag
-    window.gtag = function () {
-      (window.gtag as any).q = (window.gtag as any).q || [];
-      (window.gtag as any).q.push(arguments);
+    window.gtag = function (...args: unknown[]) {
+      (window.gtag as unknown as { q: unknown[] }).q =
+        (window.gtag as unknown as { q: unknown[] }).q || [];
+      (window.gtag as unknown as { q: unknown[] }).q.push(args);
     };
 
     window.gtag('js', new Date());
