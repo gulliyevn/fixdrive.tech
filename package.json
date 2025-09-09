@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "./deploy.sh",
+    "setup-ssl": "./setup-ssl.sh",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --write .",
     "prepare": "husky",
