@@ -1,0 +1,424 @@
+{
+  "header": {
+    "nav": {
+      "features": "Funciones",
+      "pricing": "Precios",
+      "about": "Sobre nosotros",
+      "mission": "Misión y Visión",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "reviews": "Reseñas",
+      "contact_sales": "Contactar Ventas"
+    },
+    "brand": {
+      "title": "FixDrive",
+      "subtitle": "por Axivion LLC"
+    }
+  },
+  "hero": {
+    "title": "Un toque y estás en la cima.",
+    "line1": "Un toque.",
+    "line2": "Y estás en la cima.",
+    "subtitle": "FixDrive te conecta con conductores verificados en horarios fijos: fiabilidad, seguridad y confort para la vida diaria.",
+    "availability_ribbon": "Disponible en ciudades seleccionadas • Programas piloto y alianzas corporativas",
+    "become_driver": "Hazte conductor"
+  },
+  "about": {
+    "title": "Sobre FixDrive",
+    "by": "por Axivion LLC",
+    "description": "FixDrive — por Axivion LLC — es un servicio de suscripción de conductor personal. Conectamos a familias y profesionales ocupados con conductores asignados que trabajan con horarios fijos. Sin sorpresas. Solo viajes confiables."
+  },
+  "features": {
+    "drivers": "Para conductores",
+    "customers": "Para clientes",
+    "reliability_core_title": "Fiabilidad en el centro",
+    "reliability_core_body": "FixDrive está diseñado para simplificar tu vida con funciones que priorizan la previsibilidad y la seguridad.",
+    "bullets": {
+      "fixed_drivers_title": "Conductores fijos",
+      "fixed_drivers_desc": "El mismo conductor verificado para viajes recurrentes.",
+      "schedule_first_title": "Primero el horario",
+      "schedule_first_desc": "Planifica una vez — viaja cada día: escuela, trabajo, recados.",
+      "transparent_pricing_title": "Precios transparentes",
+      "transparent_pricing_desc": "Niveles de suscripción claros y tarifas por viaje más bajas para suscriptores.",
+      "safety_verification_title": "Seguridad y verificación",
+      "safety_verification_desc": "Verificación de antecedentes, seguro y sistema de valoraciones."
+    },
+    "drivers_points": {
+      "stable_income": "Ingresos estables — clientes regulares, horario predecible.",
+      "lower_commission": "Menores comisiones para suscriptores.",
+      "driver_dashboard": "Panel de conductor: viajes, ingresos, documentos."
+    }
+  },
+  "demo": {
+    "title": "Mira FixDrive en acción",
+    "subtitle": "Un resumen rápido de 45 segundos de lo fácil que es empezar."
+  },
+  "reviews": {
+    "title": "De confianza para familias y profesionales",
+    "subtitle": "No te fíes solo de nuestra palabra. Esto es lo que dicen nuestros clientes.",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah L.",
+        "role": "Madre ocupada",
+        "text": "FixDrive ha sido un salvavidas para los traslados escolares. Nuestro conductor, David, siempre llega a tiempo y a los niños les encanta. ¡Una preocupación menos!"
+      },
+      "mark": {
+        "name": "Mark C.",
+        "role": "Ejecutivo de tecnología",
+        "text": "Mi trayecto diario ahora es mi momento más productivo. Nada de estrés por el tráfico o el estacionamiento. El modelo de suscripción es transparente y vale cada centavo."
+      },
+      "corporate": {
+        "name": "Gerente de RR. HH., Innovate Inc.",
+        "role": "Cliente corporativo",
+        "text": "FixDrive hizo un piloto con nuestro equipo — la puntualidad mejoró en general. Es una gran ventaja para nuestros empleados y la facturación corporativa es fluida."
+      }
+    }
+  },
+  "why_customers": {
+    "title": "Por qué los clientes aman FixDrive",
+    "points": {
+      "consistency": "Consistencia: tu conductor de confianza",
+      "peace_of_mind": "Tranquilidad: conductores verificados y seguro",
+      "convenience": "Comodidad: viajes con múltiples paradas y sincronización de horarios"
+    }
+  },
+  "process": {
+    "book": "Reservar",
+    "driver_assigned": "Conductor asignado",
+    "ride_completed": "Viaje completado",
+    "arrow": "→"
+  },
+  "company": {
+    "name": "Axivion LLC",
+    "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
+    "contact": {
+      "email": "junago@junago.net"
+    }
+  },
+  "footer": {
+    "tagline": "Fiabilidad, seguridad y confort para tu vida diaria.",
+    "pages_title": "Páginas",
+    "contact_title": "Contacto",
+    "follow_title": "Síguenos",
+    "copyright": "FixDrive — por Axivion LLC. Todos los derechos reservados."
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Elige el plan que mejor se adapte a tus necesidades de transporte",
+    "billing": {
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "save": "Ahorra 20%"
+    },
+    "tiers": {
+      "free": {
+        "name": "Gratis",
+        "perk1": "5% de comisión",
+        "perk2": "Emparejamiento básico de viajes",
+        "perk3": "Soporte estándar",
+        "perk4": "Acceso a la comunidad",
+        "cta": "Empezar"
+      },
+      "plus": {
+        "name": "Plus",
+        "perk1": "Reserva prioritaria",
+        "perk2": "3% de comisión",
+        "perk3": "2% de reembolso",
+        "cta": "Actualizar a Plus"
+      },
+      "premium": {
+        "badge": "Más popular",
+        "name": "Premium",
+        "perk1": "Llegada garantizada",
+        "perk2": "2% de comisión",
+        "perk3": "5% de reembolso",
+        "perk4": "Reservas programadas hasta 2 semanas",
+        "cta": "Actualizar a Premium"
+      },
+      "premium_plus": {
+        "name": "Premium Plus",
+        "perk1": "Opción de conductor asignado",
+        "perk2": "1% de comisión",
+        "perk3": "10% de reembolso",
+        "perk4": "Soporte VIP",
+        "perk5": "Facturación corporativa",
+        "cta": "Actualizar a Premium Plus"
+      },
+      "meta": {
+        "per_month": "por mes",
+        "billed_as_year": "Facturado como {{price}} por año",
+        "all_packages_include": "Todos los paquetes incluyen acceso a viajes seguros y perfiles familiares.",
+        "family_profiles_tip": "Los perfiles familiares te permiten gestionar los viajes de tus seres queridos bajo una sola cuenta."
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para llevar FixDrive a tu ciudad?",
+    "contact_sales": "Contactar Ventas"
+  },
+  "newsletter": {
+    "title": "Obtén acceso anticipado y ofertas piloto",
+    "subtitle": "Sé el primero en saber cuando lancemos en tu ciudad. Únete a nuestra lista para recibir actualizaciones.",
+    "email_placeholder": "tu@email.com",
+    "subscribe_button": "Suscribirse",
+    "disclaimer": "Enviaremos actualizaciones ocasionales. Sin spam.",
+    "download_title": "Descargar la app FixDrive",
+    "app_store_aria": "Descargar FixDrive desde App Store",
+    "google_play_aria": "Descargar FixDrive desde Google Play",
+    "app_store": {
+      "subtitle": "Descargar en",
+      "title": "App Store"
+    },
+    "google_play": {
+      "subtitle": "DISPONIBLE EN",
+      "title": "Google Play"
+    },
+    "success": {
+      "title": "¡Suscripción realizada!",
+      "description": "¡Gracias por unirte a nuestra lista desde {{city}}!",
+      "your_location": "tu ubicación",
+      "fallback": "Gracias por unirte a nuestra lista."
+    },
+    "error": {
+      "title": "Error",
+      "description": "Por favor, introduce una dirección de correo válida."
+    }
+  },
+  "pages": {
+    "common": {
+      "back_home": "Volver al inicio"
+    },
+    "about": {
+      "meta_title": "Sobre nosotros - FixDrive",
+      "meta_description": "Conoce la misión de FixDrive para revolucionar el transporte con servicios de viajes confiables, seguros y cómodos.",
+      "hero_title_prefix": "Sobre",
+      "hero_subtitle": "Revolucionamos el transporte con servicios confiables, seguros y cómodos",
+      "story_title": "Nuestra historia",
+      "story_p1": "FixDrive nació de una observación simple: los servicios tradicionales de viajes compartidos a menudo carecen de la fiabilidad y el trato personal que los usuarios necesitan en sus trayectos diarios. Vimos la oportunidad de crear algo diferente: un servicio que conecta a las personas con conductores de confianza en un horario fijo.",
+      "story_p2": "Fundado por Axivion LLC, creemos que el transporte debe ser predecible, seguro y cómodo. Nuestra plataforma une la conveniencia de los viajes compartidos con la fiabilidad del transporte tradicional.",
+      "story_p3": "Hoy nos enorgullece servir a ciudades seleccionadas con nuestros programas piloto y alianzas corporativas, construyendo una comunidad de conductores y pasajeros que valoran la consistencia y la calidad en sus desplazamientos diarios.",
+      "values_title": "Nuestros valores",
+      "values": {
+        "safety_title": "Seguridad ante todo",
+        "safety_desc": "Cada viaje está diseñado con la seguridad como máxima prioridad, garantizando tranquilidad tanto para conductores como para pasajeros.",
+        "reliability_title": "Fiabilidad",
+        "reliability_desc": "Ofrecemos un servicio constante y puntual en el que puedes confiar para tus necesidades diarias de transporte.",
+        "community_title": "Comunidad",
+        "community_desc": "Construimos conexiones entre conductores y pasajeros, creando una comunidad de transporte solidaria.",
+        "innovation_title": "Innovación",
+        "innovation_desc": "Aprovechamos la tecnología para mejorar la experiencia de transporte y conectar mejor las ciudades.",
+        "trust_title": "Confianza",
+        "trust_desc": "Fomentamos la confianza a través de prácticas transparentes y alianzas con conductores verificados.",
+        "excellence_title": "Excelencia",
+        "excellence_desc": "Comprometidos con ofrecer una calidad de servicio excepcional en cada interacción y viaje."
+      },
+      "axivion_title": "Con tecnología de Axivion LLC",
+      "axivion_p1": "FixDrive es desarrollado y operado por Axivion LLC, una empresa tecnológica dedicada a crear soluciones innovadoras que mejoran la movilidad urbana.",
+      "axivion_p2": "Nuestro equipo combina experiencia en transporte, tecnología y experiencia de usuario para ofrecer un servicio que realmente satisface las necesidades de los usuarios modernos.",
+      "cta_title": "¿Listo para experimentar FixDrive?",
+      "cta_subtitle": "Únete a nuestra comunidad de conductores y pasajeros que valoran la fiabilidad, la seguridad y el confort."
+    },
+    "mission": {
+      "meta_title": "Misión y Visión - FixDrive",
+      "meta_description": "Descubre la misión de FixDrive para revolucionar el transporte y nuestra visión de un futuro más conectado y fiable.",
+      "hero_title": "Misión y Visión",
+      "hero_subtitle": "Nuestro compromiso para transformar el transporte hacia un mañana mejor",
+      "mission_title": "Nuestra misión",
+      "mission_quote": "Revolucionar el transporte urbano conectando a las personas con conductores de confianza en horarios fijos, garantizando fiabilidad, seguridad y confort en cada viaje.",
+      "what_we_do": "Qué hacemos",
+      "how_we_do": "Cómo lo hacemos",
+      "points": {
+        "networks": "Crear redes de transporte fiables en ciudades seleccionadas",
+        "connect": "Conectar conductores verificados con usuarios habituales",
+        "community": "Construir comunidades basadas en la confianza y la consistencia",
+        "fixed_schedules": "Horarios fijos para un servicio predecible",
+        "tech_driven": "Asignación y enrutamiento impulsados por tecnología",
+        "safety_ux": "Enfoque en la seguridad y la experiencia de usuario"
+      },
+      "vision_title": "Nuestra visión",
+      "vision_quote": "Crear un mundo donde el transporte sea fluido, predecible y accesible para todos, construyendo comunidades más fuertes a través de conexiones fiables.",
+      "vision": {
+        "global_title": "Impacto global",
+        "global_desc": "Ampliar nuestra red de transporte fiable a ciudades de todo el mundo, haciendo que el transporte de calidad sea accesible en todas partes.",
+        "community_title": "Construcción de comunidad",
+        "community_desc": "Fomentar conexiones entre conductores y pasajeros, creando relaciones duraderas y comunidades locales más fuertes.",
+        "innovation_title": "Innovación",
+        "innovation_desc": "Mejorar continuamente nuestra tecnología y servicios para brindar la mejor experiencia de transporte posible."
+      },
+      "values_in_action": "Valores en acción",
+      "for_drivers": "Para conductores",
+      "for_riders": "Para pasajeros",
+      "drivers": {
+        "predictable_income_title": "Ingresos predecibles",
+        "predictable_income_desc": "Horarios fijos significan ingresos fiables y mejor equilibrio vida-trabajo.",
+        "regular_customers_title": "Clientes habituales",
+        "regular_customers_desc": "Construye relaciones con pasajeros frecuentes que valoran tu servicio.",
+        "community_support_title": "Apoyo de la comunidad",
+        "community_support_desc": "Únete a una red de conductores profesionales que se apoyan entre sí."
+      },
+      "riders": {
+        "reliable_service_title": "Servicio fiable",
+        "reliable_service_desc": "No te preocupes por llegar tarde: tu conductor estará a tiempo.",
+        "familiar_faces_title": "Caras conocidas",
+        "familiar_faces_desc": "Conoce a tus conductores habituales y construye confianza con el tiempo.",
+        "comfort_safety_title": "Confort y seguridad",
+        "comfort_safety_desc": "Viaja con confianza sabiendo que tu seguridad es nuestra prioridad."
+      },
+      "cta_title": "Únete a nuestra misión",
+      "cta_subtitle": "Sé parte de la revolución del transporte. Seas conductor o pasajero, ayúdanos a construir un futuro más conectado."
+    },
+    "privacy": {
+      "meta_title": "Política de Privacidad - FixDrive",
+      "meta_description": "Política de Privacidad de FixDrive — descubre cómo recopilamos, usamos y protegemos tu información personal.",
+      "hero_title": "Política de Privacidad",
+      "hero_subtitle": "Tu privacidad y la protección de datos son nuestras principales prioridades",
+      "last_updated": "Última actualización:",
+      "intro_p1": "En FixDrive, estamos comprometidos con proteger tu privacidad y garantizar la seguridad de tu información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando usas nuestros servicios de transporte.",
+      "intro_p2": "Al usar FixDrive, aceptas la recopilación y el uso de la información de acuerdo con esta política. Si no estás de acuerdo con nuestras políticas y prácticas, por favor no uses nuestros servicios.",
+      "info_we_collect_title": "Información que recopilamos",
+      "personal_info_title": "Información personal",
+      "personal_info_items": [
+        "Nombre e información de contacto",
+        "Número de teléfono y correo electrónico",
+        "Información de pago (procesada de forma segura)",
+        "Foto de perfil (opcional)"
+      ],
+      "usage_data_title": "Datos de uso",
+      "usage_data_items": [
+        "Historial de viajes y preferencias",
+        "Datos de ubicación (con permiso)",
+        "Patrones de uso de la app",
+        "Información del dispositivo"
+      ],
+      "technical_data_title": "Datos técnicos",
+      "technical_data_items": [
+        "Dirección IP e identificadores del dispositivo",
+        "Tipo y versión del navegador",
+        "Información del sistema operativo",
+        "Datos de rendimiento de la app"
+      ],
+      "how_we_use_title": "Cómo usamos tu información",
+      "service_provision_title": "Prestación del servicio",
+      "service_provision_desc": "Para proporcionar, mantener y mejorar nuestros servicios de transporte, incluyendo emparejarte con conductores y procesar pagos.",
+      "communication_title": "Comunicación",
+      "communication_desc": "Para enviarte actualizaciones importantes sobre tus viajes, cambios en el servicio y responder a tus consultas y solicitudes de soporte.",
+      "safety_security_title": "Seguridad",
+      "safety_security_desc": "Para garantizar la seguridad de nuestra plataforma, verificar identidades y prevenir fraudes o uso indebido de nuestros servicios.",
+      "analytics_title": "Analítica y mejora",
+      "analytics_desc": "Para analizar patrones de uso, mejorar nuestros servicios y desarrollar nuevas funciones que sirvan mejor a nuestra comunidad.",
+      "legal_compliance_title": "Cumplimiento legal",
+      "legal_compliance_desc": "Para cumplir con las leyes, regulaciones y procesos legales aplicables, y para proteger nuestros derechos e intereses.",
+      "data_protection_title": "Protección y seguridad de datos",
+      "security_measures_title": "Medidas de seguridad",
+      "security_measures_items": [
+        "Cifrado de extremo a extremo para datos sensibles",
+        "Procesamiento de pagos seguro (cumplimiento PCI DSS)",
+        "Auditorías y actualizaciones de seguridad regulares",
+        "Controles de acceso y autenticación"
+      ],
+      "your_rights_title": "Tus derechos",
+      "your_rights_items": [
+        "Acceder y revisar tus datos personales",
+        "Solicitar la corrección de información inexacta",
+        "Solicitar la eliminación de tu cuenta y datos",
+        "Darte de baja de comunicaciones de marketing"
+      ],
+      "questions_title": "¿Preguntas sobre privacidad?",
+      "questions_subtitle": "Si tienes preguntas sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos."
+    },
+    "terms": {
+      "meta_title": "Términos de Uso - FixDrive",
+      "meta_description": "Términos de Uso de FixDrive — lee nuestros términos y condiciones para usar nuestros servicios de transporte.",
+      "hero_title": "Términos de Uso",
+      "hero_subtitle": "Términos y condiciones para usar los servicios de FixDrive",
+      "last_updated": "Última actualización:",
+      "intro_p1": "¡Bienvenido a FixDrive! Estos Términos de Uso (\"Términos\") rigen tu uso de nuestros servicios de transporte, la aplicación móvil y el sitio web (colectivamente, el \"Servicio\"), operados por Axivion LLC (\"nosotros\", \"nos\" o \"nuestro\").",
+      "intro_p2": "Al acceder o usar nuestro Servicio, aceptas quedar vinculado por estos Términos. Si no estás de acuerdo con alguna parte, no puedes acceder al Servicio.",
+      "key_terms_title": "Términos y condiciones clave",
+      "user_responsibilities_title": "Responsabilidades del usuario",
+      "user_responsibilities_items": [
+        "Proporcionar información personal precisa",
+        "Mantener la seguridad de la cuenta",
+        "Cumplir las leyes de tráfico locales",
+        "Respetar a otros usuarios y conductores"
+      ],
+      "service_usage_title": "Uso del servicio",
+      "service_usage_items": [
+        "Usar el servicio solo para fines legales",
+        "Sin acoso ni comportamientos inapropiados",
+        "Seguir las instrucciones del conductor",
+        "Pagar los servicios según lo acordado"
+      ],
+      "safety_liability_title": "Seguridad y responsabilidad",
+      "safety_liability_items": [
+        "Usar cinturones de seguridad cuando estén disponibles",
+        "Reportar preocupaciones de seguridad de inmediato",
+        "Entender las limitaciones del servicio",
+        "Cumplir con las pautas de seguridad"
+      ],
+      "detailed_terms_title": "Términos detallados",
+      "acceptance_title": "Aceptación de los términos",
+      "acceptance_content": "Al crear una cuenta o usar nuestro Servicio, reconoces que has leído, entendido y aceptado estos Términos. Se aplican a todos los usuarios del Servicio, incluidos pasajeros y conductores.",
+      "service_description_title": "Descripción del servicio",
+      "service_description_content": "FixDrive proporciona una plataforma que conecta a pasajeros con conductores para servicios de transporte. Facilitamos la conexión, pero no somos un proveedor de transporte. Los conductores son contratistas independientes, no empleados de FixDrive.",
+      "user_accounts_title": "Cuentas de usuario",
+      "user_accounts_content": "Debes proporcionar información precisa y completa al crear una cuenta. Eres responsable de mantener la confidencialidad de tus credenciales y de toda actividad bajo tu cuenta.",
+      "payment_terms_title": "Términos de pago",
+      "payment_terms_content": "El pago por los servicios se procesa a través de nuestro sistema de pagos seguro. Todas las tarifas no son reembolsables, a menos que se indique lo contrario. Nos reservamos el derecho de cambiar los precios con un aviso razonable.",
+      "prohibited_uses_title": "Usos prohibidos",
+      "prohibited_uses_content": "No puedes usar nuestro Servicio para fines ilegales ni incitar a otros a realizarlos. Actividades prohibidas incluyen acoso, fraude, transporte ilegal de mercancías o cualquier actividad que viole las leyes aplicables.",
+      "limitation_liability_title": "Limitación de responsabilidad",
+      "limitation_liability_content": "La responsabilidad de FixDrive se limita al máximo permitido por la ley. No somos responsables de daños indirectos, incidentales, especiales o consecuentes derivados del uso del Servicio.",
+      "termination_title": "Terminación",
+      "termination_content": "Podemos terminar o suspender tu cuenta inmediatamente, sin previo aviso, por conductas que consideremos que violan estos Términos o que sean perjudiciales para otros usuarios, para nosotros o para terceros.",
+      "changes_terms_title": "Cambios en los términos",
+      "changes_terms_content": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. Notificaremos a los usuarios sobre cambios materiales por correo electrónico o a través del Servicio. El uso continuo después de los cambios constituye aceptación de los nuevos Términos.",
+      "important_notices_title": "Avisos importantes",
+      "safety_first_title": "Seguridad ante todo",
+      "safety_first_items": [
+        "Verifica siempre la identidad del conductor antes de subir al vehículo",
+        "Comparte los detalles del viaje con contactos de confianza",
+        "Informa cualquier problema de seguridad de inmediato",
+        "Cumple todas las leyes de tráfico y seguridad aplicables"
+      ],
+      "legal_compliance_title": "Cumplimiento legal",
+      "legal_compliance_items": [
+        "Estos Términos se rigen por las leyes locales aplicables",
+        "Las disputas se resolverán mediante arbitraje vinculante",
+        "Los usuarios deben cumplir todas las normativas aplicables",
+        "La disponibilidad del servicio puede variar según la ubicación"
+      ],
+      "questions_title": "¿Preguntas sobre los términos?",
+      "questions_subtitle": "Si tienes preguntas sobre estos Términos de Uso, contáctanos para obtener aclaraciones."
+    }
+  },
+  "contact_modal": {
+    "title": "Contáctanos",
+    "get_in_touch": {
+      "title": "Ponte en contacto",
+      "subtitle": "¿Tienes preguntas sobre FixDrive? ¡Estamos aquí para ayudarte! Contáctanos a través de cualquiera de los canales a continuación."
+    },
+    "contact_info": {
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "address": "Dirección",
+      "business_hours": "Horario de atención",
+      "business_hours_text": "Lun-Vie: 9:00-18:00\nSáb-Dom: 10:00-16:00"
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre",
+      "name_placeholder": "Tu nombre completo",
+      "email": "Correo electrónico",
+      "email_placeholder": "tu.email@ejemplo.com",
+      "subject": "Asunto",
+      "subject_placeholder": "¿De qué se trata?",
+      "message": "Mensaje",
+      "message_placeholder": "Cuéntanos cómo podemos ayudarte...",
+      "send_button": "Enviar mensaje",
+      "required": "*",
+      "error_title": "Error",
+      "error_description": "Por favor, completa todos los campos obligatorios."
+    }
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "header": {
+    "nav": {
+      "features": "Özellikler",
+      "pricing": "Fiyatlandırma",
+      "about": "Hakkımızda",
+      "mission": "Misyon & Vizyon",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları",
+      "reviews": "Yorumlar",
+      "contact_sales": "Satış ile İletişim"
+    },
+    "brand": {
+      "title": "FixDrive",
+      "subtitle": "Axivion LLC tarafından"
+    }
+  },
+  "hero": {
+    "title": "Tek dokunuşla zirvedesin.",
+    "line1": "Tek dokunuş.",
+    "line2": "Ve zirvedesin.",
+    "subtitle": "FixDrive, doğrulanmış sürücülerle sabit zamanlarda buluşturur — günlük yaşam için güvenilirlik, güvenlik ve konfor.",
+    "availability_ribbon": "Seçili şehirlerde mevcut • Pilot programlar ve kurumsal iş birlikleri",
+    "become_driver": "Sürücü Ol"
+  },
+  "about": {
+    "title": "FixDrive Hakkında",
+    "by": "Axivion LLC tarafından",
+    "description": "FixDrive — Axivion LLC tarafından — kişisel şoför abonelik servisidir. Aileleri ve yoğun profesyonelleri sabit takvimle çalışan atanmış sürücülerle buluşturuyoruz. Sürpriz yok. Sadece güvenilir yolculuklar."
+  },
+  "features": {
+    "drivers": "Sürücüler için",
+    "customers": "Yolcular için",
+    "reliability_core_title": "Merkezde güvenilirlik",
+    "reliability_core_body": "FixDrive, öngörülebilirlik ve güvenliği önceleyen özelliklerle hayatınızı kolaylaştırmak için tasarlandı.",
+    "bullets": {
+      "fixed_drivers_title": "Sabit sürücüler",
+      "fixed_drivers_desc": "Tekrarlayan yolculuklar için aynı doğrulanmış sürücü.",
+      "schedule_first_title": "Önce takvim",
+      "schedule_first_desc": "Bir kez planla — her gün yolculuk yap: okul, iş, işler.",
+      "transparent_pricing_title": "Şeffaf fiyatlandırma",
+      "transparent_pricing_desc": "Net abonelik kademeleri ve aboneler için daha düşük yolculuk ücretleri.",
+      "safety_verification_title": "Güvenlik & doğrulama",
+      "safety_verification_desc": "Geçmiş kontrolleri, sigorta ve puanlama sistemi."
+    },
+    "drivers_points": {
+      "stable_income": "Düzenli gelir — sürekli müşteriler, öngörülebilir takvim.",
+      "lower_commission": "Aboneler için daha düşük komisyon kademeleri.",
+      "driver_dashboard": "Sürücü paneli: yolculuklar, kazançlar, belgeler."
+    }
+  },
+  "demo": {
+    "title": "FixDrive'ı İş Başında Görün",
+    "subtitle": "Başlamanın ne kadar kolay olduğunu 45 saniyelik hızlı bir özet."
+  },
+  "reviews": {
+    "title": "Ailelerin ve Profesyonellerin Güvendiği",
+    "subtitle": "Sadece bizim sözümüze güvenmeyin. Müşterilerimiz neler söylüyor?",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah L.",
+        "role": "Yoğun anne",
+        "text": "FixDrive okul servisi için hayat kurtarıcı oldu. Sürücümüz David her zaman zamanında gelir ve çocuklar onu çok sever. Bir dert eksildi!"
+      },
+      "mark": {
+        "name": "Mark C.",
+        "role": "Teknoloji yöneticisi",
+        "text": "Günlük işe gidiş gelişim artık en verimli zamanım. Trafik ve park stresi yok. Abonelik modeli şeffaf ve sonuna kadar değer."
+      },
+      "corporate": {
+        "name": "İK Müdürü, Innovate Inc.",
+        "role": "Kurumsal müşteri",
+        "text": "FixDrive ekibimizle pilot yaptı — dakiklik her alanda arttı. Çalışanlarımız için harika bir ayrıcalık ve kurumsal faturalama sorunsuz."
+      }
+    }
+  },
+  "why_customers": {
+    "title": "Müşteriler FixDrive'ı neden seviyor",
+    "points": {
+      "consistency": "Tutarlılık: tanıdık sürücünüz",
+      "peace_of_mind": "İç huzur: doğrulanmış sürücüler & sigorta",
+      "convenience": "Kolaylık: çok duraklı yolculuk ve takvim senkronizasyonu"
+    }
+  },
+  "process": {
+    "book": "Rezerve et",
+    "driver_assigned": "Sürücü atandı",
+    "ride_completed": "Yolculuk tamamlandı",
+    "arrow": "→"
+  },
+  "company": {
+    "name": "Axivion LLC",
+    "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
+    "contact": {
+      "email": "junago@junago.net"
+    }
+  },
+  "footer": {
+    "tagline": "Günlük yaşamınız için güvenilirlik, güvenlik ve konfor.",
+    "pages_title": "Sayfalar",
+    "contact_title": "İletişim",
+    "follow_title": "Bizi takip edin",
+    "copyright": "FixDrive — Axivion LLC tarafından. Tüm hakları saklıdır."
+  },
+  "pricing": {
+    "title": "Basit ve şeffaf fiyatlandırma",
+    "subtitle": "Ulaşım ihtiyaçlarınıza en uygun planı seçin",
+    "billing": {
+      "monthly": "Aylık",
+      "yearly": "Yıllık",
+      "save": "%20 tasarruf edin"
+    },
+    "tiers": {
+      "free": {
+        "name": "Ücretsiz",
+        "perk1": "%5 komisyon",
+        "perk2": "Temel yolculuk eşleştirme",
+        "perk3": "Standart destek",
+        "perk4": "Topluluk erişimi",
+        "cta": "Başlayın"
+      },
+      "plus": {
+        "name": "Plus",
+        "perk1": "Öncelikli rezervasyon",
+        "perk2": "%3 komisyon",
+        "perk3": "%2 nakit iade",
+        "cta": "Plus'a yükselt"
+      },
+      "premium": {
+        "badge": "En popüler",
+        "name": "Premium",
+        "perk1": "Garantili varış",
+        "perk2": "%2 komisyon",
+        "perk3": "%5 nakit iade",
+        "perk4": "2 haftaya kadar planlı rezervasyon",
+        "cta": "Premium'a yükselt"
+      },
+      "premium_plus": {
+        "name": "Premium Plus",
+        "perk1": "Atanmış sürücü seçeneği",
+        "perk2": "%1 komisyon",
+        "perk3": "%10 nakit iade",
+        "perk4": "VIP destek",
+        "perk5": "Kurumsal faturalama",
+        "cta": "Premium Plus'a yükselt"
+      },
+      "meta": {
+        "per_month": "aylık",
+        "billed_as_year": "Yıllık {{price}} olarak faturalandırılır",
+        "all_packages_include": "Tüm paketler güvenli yolculuklara ve Aile profillerine erişim içerir.",
+        "family_profiles_tip": "Aile profilleri, sevdiklerinizin yolculuklarını tek bir hesaptan yönetmenizi sağlar."
+      }
+    }
+  },
+  "cta": {
+    "title": "FixDrive'ı şehrinize getirmeye hazır mısınız?",
+    "contact_sales": "Satış ile İletişim"
+  },
+  "newsletter": {
+    "title": "Erken erişim ve pilot teklifleri alın",
+    "subtitle": "Şehrinizde yayına geçtiğimizde ilk siz öğrenin. Güncellemeler için listemize katılın.",
+    "email_placeholder": "email@adresiniz.com",
+    "subscribe_button": "Abone ol",
+    "disclaimer": "Ara sıra güncellemeler göndereceğiz. Spam yok.",
+    "download_title": "FixDrive Uygulamasını İndirin",
+    "app_store_aria": "FixDrive'ı App Store'dan indirin",
+    "google_play_aria": "FixDrive'ı Google Play'den indirin",
+    "app_store": {
+      "subtitle": "İndir:",
+      "title": "App Store"
+    },
+    "google_play": {
+      "subtitle": "HEMEN",
+      "title": "Google Play"
+    },
+    "success": {
+      "title": "Abone olundu!",
+      "description": "{{city}} şehrinden listemize katıldığınız için teşekkürler!",
+      "your_location": "konumunuz",
+      "fallback": "Listemize katıldığınız için teşekkürler."
+    },
+    "error": {
+      "title": "Hata",
+      "description": "Lütfen geçerli bir e-posta adresi girin."
+    }
+  },
+  "pages": {
+    "common": {
+      "back_home": "Ana sayfaya dön"
+    },
+    "about": {
+      "meta_title": "Hakkımızda - FixDrive",
+      "meta_description": "FixDrive'ın güvenilir, güvenli ve konforlu yolculuk servisleriyle ulaşıma getirdiği dönüşümü keşfedin.",
+      "hero_title_prefix": "Hakkımızda",
+      "hero_subtitle": "Güvenilir, güvenli ve konforlu yolculuk servisleriyle ulaşımı dönüştürüyoruz",
+      "story_title": "Hikayemiz",
+      "story_p1": "FixDrive, basit bir gözlemden doğdu: geleneksel paylaşım yolculuk servisleri, yolcuların günlük seyahatlerinde ihtiyaç duyduğu güvenilirlik ve kişisel dokunuştan sıklıkla yoksun. Biz farklı bir şey yapma fırsatı gördük — insanları sabit takvimle güvenilir sürücülerle buluşturan bir servis.",
+      "story_p2": "Axivion LLC tarafından kurulan FixDrive, ulaşımın öngörülebilir, güvenli ve konforlu olması gerektiğine inanır. Platformumuz, paylaşım yolculuğunun kolaylığı ile geleneksel ulaşımın güvenilirliği arasındaki boşluğu kapatır.",
+      "story_p3": "Bugün, pilot programlarımız ve kurumsal ortaklıklarımızla seçili şehirlerde hizmet vermekten gurur duyuyoruz; günlük yolculuklarında tutarlılık ve kaliteye değer veren sürücü ve yolculardan oluşan bir topluluk inşa ediyoruz.",
+      "values_title": "Değerlerimiz",
+      "values": {
+        "safety_title": "Önce güvenlik",
+        "safety_desc": "Her yolculuk, güvenliği en üst öncelik yapacak şekilde tasarlanır; sürücüler ve yolcular için iç huzuru sağlar.",
+        "reliability_title": "Güvenilirlik",
+        "reliability_desc": "Günlük ulaşım ihtiyaçlarınız için güvenebileceğiniz, tutarlı ve zamanında hizmet sunarız.",
+        "community_title": "Topluluk",
+        "community_desc": "Sürücüler ve yolcular arasında bağlar kurarak destekleyici bir ulaşım topluluğu oluştururuz.",
+        "innovation_title": "İnovasyon",
+        "innovation_desc": "Ulaşım deneyimini iyileştirmek ve şehirleri birbirine yaklaştırmak için teknolojiden yararlanırız.",
+        "trust_title": "Güven",
+        "trust_desc": "Şeffaf uygulamalar ve doğrulanmış sürücü iş birlikleriyle güven tesis ederiz.",
+        "excellence_title": "Mükemmellik",
+        "excellence_desc": "Her etkileşim ve yolculukta olağanüstü hizmet kalitesi sunmaya adanmışız."
+      },
+      "axivion_title": "Axivion LLC tarafından desteklenir",
+      "axivion_p1": "FixDrive, şehir içi hareketliliği iyileştiren yenilikçi çözümler geliştirmeye adanmış bir teknoloji şirketi olan Axivion LLC tarafından geliştirilir ve işletilir.",
+      "axivion_p2": "Ekibimiz, ulaşım, teknoloji ve kullanıcı deneyimi uzmanlığını birleştirerek modern yolcuların ihtiyaçlarını gerçekten karşılayan bir hizmet sunar.",
+      "cta_title": "FixDrive'ı denemeye hazır mısınız?",
+      "cta_subtitle": "Güvenilirlik, güvenlik ve konfora değer veren sürücü ve yolcu topluluğumuza katılın."
+    },
+    "mission": {
+      "meta_title": "Misyon & Vizyon - FixDrive",
+      "meta_description": "FixDrive'ın ulaşımı dönüştürme misyonunu ve daha bağlı, güvenilir bir gelecek vizyonumuzu keşfedin.",
+      "hero_title": "Misyon & Vizyon",
+      "hero_subtitle": "Yarının ulaşımını dönüştürme taahhüdümüz",
+      "mission_title": "Misyonumuz",
+      "mission_quote": "İnsanları sabit takvimlerle güvenilir sürücülerle buluşturarak kentsel ulaşımı dönüştürmek; her yolculukta güvenilirlik, güvenlik ve konfor sağlamak.",
+      "what_we_do": "Ne yapıyoruz",
+      "how_we_do": "Nasıl yapıyoruz",
+      "points": {
+        "networks": "Seçili şehirlerde güvenilir ulaşım ağları kurmak",
+        "connect": "Doğrulanmış sürücüleri düzenli yolcularla buluşturmak",
+        "community": "Güven ve tutarlılık temelli topluluklar inşa etmek",
+        "fixed_schedules": "Öngörülebilir hizmet için sabit takvimler",
+        "tech_driven": "Teknoloji odaklı eşleştirme ve yönlendirme",
+        "safety_ux": "Güvenlik ve kullanıcı deneyimine odaklanma"
+      },
+      "vision_title": "Vizyonumuz",
+      "vision_quote": "Ulaşımın kesintisiz, öngörülebilir ve herkes için erişilebilir olduğu; güvenilir bağlarla daha güçlü toplulukların kurulduğu bir dünya yaratmak.",
+      "vision": {
+        "global_title": "Küresel etki",
+        "global_desc": "Güvenilir ulaşım ağımızı dünya çapında şehirlere genişleterek kaliteyi her yerde erişilebilir kılmak.",
+        "community_title": "Topluluk inşası",
+        "community_desc": "Sürücüler ve yolcular arasında bağları teşvik ederek kalıcı ilişkiler ve daha güçlü yerel topluluklar oluşturmak.",
+        "innovation_title": "İnovasyon",
+        "innovation_desc": "En iyi ulaşım deneyimini sunmak için teknoloji ve hizmetlerimizi sürekli iyileştirmek."
+      },
+      "values_in_action": "Eylemde değerler",
+      "for_drivers": "Sürücüler için",
+      "for_riders": "Yolcular için",
+      "drivers": {
+        "predictable_income_title": "Öngörülebilir gelir",
+        "predictable_income_desc": "Sabit takvimler güvenilir kazanç ve daha iyi iş-yaşam dengesi sağlar.",
+        "regular_customers_title": "Düzenli müşteriler",
+        "regular_customers_desc": "Hizmetinizi takdir eden düzenli yolcularla ilişkiler kurun.",
+        "community_support_title": "Topluluk desteği",
+        "community_support_desc": "Birbirini destekleyen profesyonel sürücü ağımıza katılın."
+      },
+      "riders": {
+        "reliable_service_title": "Güvenilir hizmet",
+        "reliable_service_desc": "Geç kalma endişesi yok — sürücünüz zamanında orada olur.",
+        "familiar_faces_title": "Tanıdık yüzler",
+        "familiar_faces_desc": "Düzenli sürücülerinizi tanıyın ve zamanla güven inşa edin.",
+        "comfort_safety_title": "Konfor & güvenlik",
+        "comfort_safety_desc": "Güvenliğinizin önceliğimiz olduğunu bilerek güvenle seyahat edin."
+      },
+      "cta_title": "Misyonumuza katılın",
+      "cta_subtitle": "Ulaşım devriminin parçası olun. Sürücü ya da yolcu, daha bağlı bir gelecek inşa etmemize yardım edin."
+    },
+    "privacy": {
+      "meta_title": "Gizlilik Politikası - FixDrive",
+      "meta_description": "FixDrive'ın Gizlilik Politikası — kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin.",
+      "hero_title": "Gizlilik Politikası",
+      "hero_subtitle": "Gizliliğiniz ve veri koruması en büyük önceliğimizdir",
+      "last_updated": "Son güncelleme:",
+      "intro_p1": "FixDrive olarak gizliliğinizi korumayı ve kişisel bilgilerinizin güvenliğini sağlamayı taahhüt ediyoruz. Bu politika, hizmetlerimizi kullanırken bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar.",
+      "intro_p2": "FixDrive'ı kullanarak, bu politikaya uygun olarak bilgilerin toplanmasını ve kullanılmasını kabul edersiniz. Politikalarımızı ve uygulamalarımızı kabul etmiyorsanız lütfen hizmetlerimizi kullanmayın.",
+      "info_we_collect_title": "Topladığımız bilgiler",
+      "personal_info_title": "Kişisel bilgiler",
+      "personal_info_items": [
+        "İsim ve iletişim bilgileri",
+        "Telefon numarası ve e-posta adresi",
+        "Ödeme bilgileri (güvenli şekilde işlenir)",
+        "Profil fotoğrafı (isteğe bağlı)"
+      ],
+      "usage_data_title": "Kullanım verileri",
+      "usage_data_items": [
+        "Yolculuk geçmişi ve tercihleri",
+        "Konum verileri (izinle)",
+        "Uygulama kullanım kalıpları",
+        "Cihaz bilgileri"
+      ],
+      "technical_data_title": "Teknik veriler",
+      "technical_data_items": [
+        "IP adresi ve cihaz tanımlayıcıları",
+        "Tarayıcı türü ve sürümü",
+        "İşletim sistemi bilgileri",
+        "Uygulama performans verileri"
+      ],
+      "how_we_use_title": "Bilgilerinizi nasıl kullanıyoruz",
+      "service_provision_title": "Hizmet sunumu",
+      "service_provision_desc": "Sizi sürücülerle eşleştirmek ve ödemeleri işlemek dahil ulaşım hizmetlerimizi sağlamak, sürdürmek ve iyileştirmek için.",
+      "communication_title": "İletişim",
+      "communication_desc": "Yolculuklarınız ve hizmet değişiklikleriyle ilgili önemli güncellemeleri göndermek ve talep ile destek isteklerinize yanıt vermek için.",
+      "safety_security_title": "Güvenlik",
+      "safety_security_desc": "Platformumuzun güvenliğini sağlamak, kimlikleri doğrulamak ve dolandırıcılık veya kötüye kullanımı önlemek için.",
+      "analytics_title": "Analitik & iyileştirme",
+      "analytics_desc": "Kullanım kalıplarını analiz etmek, hizmetlerimizi geliştirmek ve topluluğumuza daha iyi hizmet edecek yeni özellikler geliştirmek için.",
+      "legal_compliance_title": "Yasal uygunluk",
+      "legal_compliance_desc": "Yürürlükteki yasalara, düzenlemelere ve yasal süreçlere uymak ve haklarımızı ile menfaatlerimizi korumak için.",
+      "data_protection_title": "Veri koruma & güvenlik",
+      "security_measures_title": "Güvenlik önlemleri",
+      "security_measures_items": [
+        "Hassas veriler için uçtan uca şifreleme",
+        "Güvenli ödeme işleme (PCI DSS uyumlu)",
+        "Düzenli güvenlik denetimleri ve güncellemeler",
+        "Erişim kontrolleri ve kimlik doğrulama"
+      ],
+      "your_rights_title": "Haklarınız",
+      "your_rights_items": [
+        "Kişisel verilerinize erişme ve gözden geçirme",
+        "Hatalı bilgilerin düzeltilmesini talep etme",
+        "Hesabınızın ve verilerinizin silinmesini talep etme",
+        "Pazarlama iletişimlerinden çıkma"
+      ],
+      "questions_title": "Gizlilik hakkında sorular?",
+      "questions_subtitle": "Bu politika veya veri uygulamalarımız hakkında sorularınız varsa lütfen bizimle iletişime geçin."
+    },
+    "terms": {
+      "meta_title": "Kullanım Şartları - FixDrive",
+      "meta_description": "FixDrive Kullanım Şartları — hizmetlerimizi kullanmaya ilişkin şartlarımızı okuyun.",
+      "hero_title": "Kullanım Şartları",
+      "hero_subtitle": "FixDrive hizmetlerini kullanmaya ilişkin şartlar ve koşullar",
+      "last_updated": "Son güncelleme:",
+      "intro_p1": "FixDrive'a hoş geldiniz! Bu Kullanım Şartları (\"Şartlar\"), Axivion LLC (\"biz\", \"bize\" veya \"bizim\") tarafından işletilen ulaşım hizmetlerimizin, mobil uygulamanın ve web sitesinin (birlikte, \"Hizmet\") kullanımınızı düzenler.",
+      "intro_p2": "Hizmetimize erişerek veya kullanarak bu Şartlara bağlı kalmayı kabul edersiniz. Şartların herhangi bir kısmını kabul etmiyorsanız Hizmete erişemezsiniz.",
+      "key_terms_title": "Temel şartlar ve koşullar",
+      "user_responsibilities_title": "Kullanıcı sorumlulukları",
+      "user_responsibilities_items": [
+        "Doğru kişisel bilgi sağlama",
+        "Hesap güvenliğini koruma",
+        "Yerel trafik kurallarına uyma",
+        "Diğer kullanıcı ve sürücülere saygı gösterme"
+      ],
+      "service_usage_title": "Hizmet kullanımı",
+      "service_usage_items": [
+        "Hizmeti yalnızca yasal amaçlarla kullanma",
+        "Taciz veya uygunsuz davranışta bulunmama",
+        "Sürücü talimatlarına uyma",
+        "Hizmet bedellerini anlaşmaya uygun ödeme"
+      ],
+      "safety_liability_title": "Güvenlik & sorumluluk",
+      "safety_liability_items": [
+        "Mümkün olduğunda emniyet kemeri takma",
+        "Güvenlik endişelerini derhal bildirme",
+        "Hizmet sınırlamalarını anlama",
+        "Güvenlik yönergelerine uyma"
+      ],
+      "detailed_terms_title": "Detaylı şartlar",
+      "acceptance_title": "Şartların kabulü",
+      "acceptance_content": "Bir hesap oluşturarak veya Hizmetimizi kullanarak, bu Şartları okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz. Şartlar, yolcular ve sürücüler dâhil tüm kullanıcılar için geçerlidir.",
+      "service_description_title": "Hizmet açıklaması",
+      "service_description_content": "FixDrive, yolcuları ulaşım hizmetleri için sürücülerle buluşturan bir platform sağlar. Bağlantıyı kolaylaştırırız ancak bir taşıyıcı değiliz. Sürücüler, FixDrive çalışanı değil, bağımsız yüklenicilerdir.",
+      "user_accounts_title": "Kullanıcı hesapları",
+      "user_accounts_content": "Hesap oluştururken doğru ve eksiksiz bilgi vermelisiniz. Kimlik bilgilerinizin gizliliğini korumaktan ve hesabınız altındaki tüm faaliyetlerden siz sorumlusunuz.",
+      "payment_terms_title": "Ödeme şartları",
+      "payment_terms_content": "Hizmet ödemeleri güvenli ödeme sistemimiz üzerinden işlenir. Aksi belirtilmedikçe tüm ücretler iade edilmez. Makul bildirimle fiyatlarımızı değiştirme hakkını saklı tutarız.",
+      "prohibited_uses_title": "Yasaklı kullanımlar",
+      "prohibited_uses_content": "Hizmetimizi herhangi bir yasa dışı amaç için kullanamaz veya başkalarını buna teşvik edemezsiniz. Yasaklı faaliyetler arasında taciz, dolandırıcılık, malların yasa dışı taşınması veya yürürlükteki yasaları ihlal eden herhangi bir faaliyet yer alır.",
+      "limitation_liability_title": "Sorumluluğun sınırlandırılması",
+      "limitation_liability_content": "FixDrive'ın sorumluluğu, kanunen izin verilen azami ölçüde sınırlandırılmıştır. Hizmetin kullanımından kaynaklanan dolaylı, arızi, özel veya sonuçsal zararlardan sorumlu değiliz.",
+      "termination_title": "Fesih",
+      "termination_content": "Bu Şartları ihlal ettiğinize inandığımız veya diğer kullanıcılara, bize ya da üçüncü kişilere zararlı olduğuna kanaat getirdiğimiz davranışlar nedeniyle hesabınızı önceden bildirim olmaksızın derhal sonlandırabilir veya askıya alabiliriz.",
+      "changes_terms_title": "Şartlarda değişiklikler",
+      "changes_terms_content": "Bu Şartları istediğimiz zaman değiştirme hakkını saklı tutarız. Önemli değişiklikler hakkında kullanıcıları e-posta veya Hizmet üzerinden bilgilendireceğiz. Değişikliklerden sonra Hizmeti kullanmaya devam etmeniz yeni Şartları kabul ettiğiniz anlamına gelir.",
+      "important_notices_title": "Önemli bildirimler",
+      "safety_first_title": "Önce güvenlik",
+      "safety_first_items": [
+        "Araca binmeden önce sürücü kimliğini her zaman doğrulayın",
+        "Yolculuk detaylarını güvendiğiniz kişilerle paylaşın",
+        "Herhangi bir güvenlik endişesini derhal bildirin",
+        "Tüm ilgili trafik ve güvenlik yasalarına uyun"
+      ],
+      "legal_compliance_title": "Yasal uygunluk",
+      "legal_compliance_items": [
+        "Bu Şartlar ilgili yerel yasalara tabidir",
+        "Uyuşmazlıklar bağlayıcı tahkim yoluyla çözülecektir",
+        "Kullanıcılar tüm geçerli düzenlemelere uymalıdır",
+        "Hizmetin erişilebilirliği konuma göre değişebilir"
+      ],
+      "questions_title": "Şartlar hakkında sorular?",
+      "questions_subtitle": "Bu Kullanım Şartları hakkında sorularınız varsa, açıklama için bizimle iletişime geçin."
+    }
+  },
+  "contact_modal": {
+    "title": "Bizimle iletişime geçin",
+    "get_in_touch": {
+      "title": "İletişime geçin",
+      "subtitle": "FixDrive hakkında sorularınız mı var? Yardımcı olmak için buradayız! Aşağıdaki kanallardan herhangi birinden bize ulaşın."
+    },
+    "contact_info": {
+      "email": "E-posta",
+      "phone": "Telefon",
+      "address": "Adres",
+      "business_hours": "Çalışma saatleri",
+      "business_hours_text": "Pzt-Cum: 9:00–18:00\nCmt-Paz: 10:00–16:00"
+    },
+    "form": {
+      "title": "Bize mesaj gönderin",
+      "name": "Ad",
+      "name_placeholder": "Tam adınız",
+      "email": "E-posta",
+      "email_placeholder": "epostanız@ornek.com",
+      "subject": "Konu",
+      "subject_placeholder": "Bu ne hakkında?",
+      "message": "Mesaj",
+      "message_placeholder": "Nasıl yardımcı olabiliriz, yazın...",
+      "send_button": "Mesajı gönder",
+      "required": "*",
+      "error_title": "Hata",
+      "error_description": "Lütfen tüm zorunlu alanları doldurun."
+    }
+  }
+}

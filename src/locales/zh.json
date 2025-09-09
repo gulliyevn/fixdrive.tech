@@ -1,0 +1,419 @@
+{
+  "header": {
+    "nav": {
+      "features": "功能",
+      "pricing": "价格",
+      "about": "关于我们",
+      "mission": "使命与愿景",
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "reviews": "评价",
+      "contact_sales": "联系销售"
+    },
+    "brand": {
+      "title": "FixDrive",
+      "subtitle": "由 Axivion LLC 提供"
+    }
+  },
+  "hero": {
+    "title": "轻点一下，你就领先。",
+    "line1": "轻点一下。",
+    "line2": "你就领先。",
+    "subtitle": "FixDrive 按固定日程为你连接经过验证的司机——为日常生活提供可靠、安全与舒适。",
+    "availability_ribbon": "适用于部分城市 • 试点项目与企业合作",
+    "become_driver": "成为司机"
+  },
+  "about": {
+    "title": "关于 FixDrive",
+    "by": "由 Axivion LLC 提供",
+    "description": "FixDrive — 由 Axivion LLC 打造 — 是一项个人司机订阅服务。我们将家庭和繁忙的专业人士与按固定日程工作的指定司机连接在一起。没有意外，只有可靠的出行。"
+  },
+  "features": {
+    "drivers": "为司机打造",
+    "customers": "为乘客打造",
+    "reliability_core_title": "可靠性为核心",
+    "reliability_core_body": "FixDrive 以可预测性和安全性为先的功能，旨在简化你的生活。",
+    "bullets": {
+      "fixed_drivers_title": "固定司机",
+      "fixed_drivers_desc": "重复行程由同一位已验证司机提供服务。",
+      "schedule_first_title": "日程优先",
+      "schedule_first_desc": "一次规划——天天出行：上学、上班、办事。",
+      "transparent_pricing_title": "透明定价",
+      "transparent_pricing_desc": "清晰的订阅分级，订阅用户享更低单次费用。",
+      "safety_verification_title": "安全与核验",
+      "safety_verification_desc": "背景审查、保险与评分体系。"
+    },
+    "drivers_points": {
+      "stable_income": "稳定收入——常规客户、可预测日程。",
+      "lower_commission": "订阅用户对应更低的佣金等级。",
+      "driver_dashboard": "司机面板：行程、收益、证件。"
+    }
+  },
+  "demo": {
+    "title": "观看 FixDrive 实际演示",
+    "subtitle": "45 秒快速了解如何轻松开始。"
+  },
+  "reviews": {
+    "title": "深受家庭与专业人士信赖",
+    "subtitle": "不必只听我们说。来看看客户们的真实反馈。",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah L.",
+        "role": "忙碌的母亲",
+        "text": "FixDrive 在接送孩子上学上帮了大忙。我们的司机 David 总是准时，孩子们也很喜欢他。少了一件操心事！"
+      },
+      "mark": {
+        "name": "Mark C.",
+        "role": "技术高管",
+        "text": "我每日通勤现在成了最高效的时间。不再为堵车或停车焦虑。订阅模式透明，物有所值。"
+      },
+      "corporate": {
+        "name": "人力资源经理，Innovate Inc.",
+        "role": "企业客户",
+        "text": "FixDrive 与我们团队开展了试点——整体准点率显著提升。这是员工极佳的福利，企业开票也非常顺畅。"
+      }
+    }
+  },
+  "why_customers": {
+    "title": "客户为何喜爱 FixDrive",
+    "points": {
+      "consistency": "一致性：熟悉的司机",
+      "peace_of_mind": "安心：已验证司机与保险",
+      "convenience": "便捷：多站点行程与日程同步"
+    }
+  },
+  "process": {
+    "book": "预订",
+    "driver_assigned": "司机已指派",
+    "ride_completed": "行程已完成",
+    "arrow": "→"
+  },
+  "company": {
+    "name": "Axivion LLC",
+    "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
+    "contact": {
+      "email": "junago@junago.net"
+    }
+  },
+  "footer": {
+    "tagline": "为你的日常生活提供可靠、安全与舒适。",
+    "pages_title": "页面",
+    "contact_title": "联系",
+    "follow_title": "关注我们",
+    "copyright": "FixDrive — 由 Axivion LLC 提供。保留所有权利。"
+  },
+  "pricing": {
+    "title": "简单透明的价格",
+    "subtitle": "选择最符合你出行需求的方案",
+    "billing": {
+      "monthly": "每月",
+      "yearly": "每年",
+      "save": "节省 20%"
+    },
+    "tiers": {
+      "free": {
+        "name": "免费",
+        "perk1": "5% 佣金",
+        "perk2": "基础行程匹配",
+        "perk3": "标准支持",
+        "perk4": "社区访问",
+        "cta": "开始使用"
+      },
+      "plus": {
+        "name": "Plus",
+        "perk1": "优先预订",
+        "perk2": "3% 佣金",
+        "perk3": "2% 返现",
+        "cta": "升级到 Plus"
+      },
+      "premium": {
+        "badge": "最受欢迎",
+        "name": "Premium",
+        "perk1": "准时到达保障",
+        "perk2": "2% 佣金",
+        "perk3": "5% 返现",
+        "perk4": "可预约至多 2 周后的行程",
+        "cta": "升级到 Premium"
+      },
+      "premium_plus": {
+        "name": "Premium Plus",
+        "perk1": "专属司机选项",
+        "perk2": "1% 佣金",
+        "perk3": "10% 返现",
+        "perk4": "VIP 支持",
+        "perk5": "企业开票",
+        "cta": "升级到 Premium Plus"
+      },
+      "meta": {
+        "per_month": "每月",
+        "billed_as_year": "按年计费：每年 {{price}}",
+        "all_packages_include": "所有套餐均包含对安全出行与家庭资料的访问。",
+        "family_profiles_tip": "通过家庭资料，你可以在同一账号下为家人管理行程。"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备把 FixDrive 带到你的城市吗？",
+    "contact_sales": "联系销售"
+  },
+  "newsletter": {
+    "title": "获得早期访问与试点优惠",
+    "subtitle": "当我们在你的城市上线时，第一时间获知。加入我们的邮件列表以获取更新。",
+    "email_placeholder": "your@email.com",
+    "subscribe_button": "订阅",
+    "disclaimer": "我们会偶尔发送更新。绝无垃圾信息。",
+    "download_title": "下载 FixDrive 应用",
+    "app_store_aria": "从 App Store 下载 FixDrive",
+    "google_play_aria": "从 Google Play 下载 FixDrive",
+    "app_store": {
+      "subtitle": "下载自",
+      "title": "App Store"
+    },
+    "google_play": {
+      "subtitle": "获取于",
+      "title": "Google Play"
+    },
+    "success": {
+      "title": "已订阅！",
+      "description": "感谢你从 {{city}} 加入我们的邮件列表！",
+      "your_location": "你的所在地",
+      "fallback": "感谢加入我们的邮件列表。"
+    },
+    "error": {
+      "title": "错误",
+      "description": "请输入有效的电子邮箱地址。"
+    }
+  },
+  "pages": {
+    "common": {
+      "back_home": "返回首页"
+    },
+    "about": {
+      "meta_title": "关于我们 - FixDrive",
+      "meta_description": "了解 FixDrive 以可靠、安全、舒适的共享出行服务重塑交通的使命。",
+      "hero_title_prefix": "关于",
+      "hero_subtitle": "以可靠、安全、舒适的共享出行服务重塑交通",
+      "story_title": "我们的故事",
+      "story_p1": "FixDrive 源于一个简单的观察：传统的网约车服务往往缺乏通勤者在日常出行中所需要的可靠性与人情味。我们看到了一个机会，打造一种不同的服务——将人们与按固定日程工作的可信司机连接起来。",
+      "story_p2": "由 Axivion LLC 创立，我们相信交通应当是可预测、安全且舒适的。我们的平台弥合了共享出行的便捷与传统交通服务的可靠之间的鸿沟。",
+      "story_p3": "如今，我们通过试点项目与企业合作为部分城市提供服务，构建由重视一致性与品质的司机与乘客组成的社区。",
+      "values_title": "我们的价值观",
+      "values": {
+        "safety_title": "安全至上",
+        "safety_desc": "每一次出行都以安全为首要考虑，为司机与乘客提供安心保障。",
+        "reliability_title": "可靠",
+        "reliability_desc": "为你的日常出行提供一致、准时的服务，让你放心依赖。",
+        "community_title": "社区",
+        "community_desc": "联结司机与乘客，打造互助的出行社区。",
+        "innovation_title": "创新",
+        "innovation_desc": "运用科技提升出行体验，让城市连接更紧密。",
+        "trust_title": "信任",
+        "trust_desc": "通过透明的实践与经验证的司机合作建立信任。",
+        "excellence_title": "卓越",
+        "excellence_desc": "在每一次互动与出行中，致力于提供卓越的服务质量。"
+      },
+      "axivion_title": "由 Axivion LLC 驱动",
+      "axivion_p1": "FixDrive 由致力于用创新方案改善城市出行的科技公司 Axivion LLC 开发与运营。",
+      "axivion_p2": "我们的团队结合了交通、技术与用户体验专长，提供真正满足现代通勤者需求的服务。",
+      "cta_title": "准备体验 FixDrive 吗？",
+      "cta_subtitle": "加入重视可靠、安全与舒适的司机与乘客社区。"
+    },
+    "mission": {
+      "meta_title": "使命与愿景 - FixDrive",
+      "meta_description": "了解 FixDrive 改变交通的使命与我们对更加连接、可靠未来的愿景。",
+      "hero_title": "使命与愿景",
+      "hero_subtitle": "我们致力于为更好的明天改变交通",
+      "mission_title": "我们的使命",
+      "mission_quote": "通过将人们与按固定日程工作的可信司机连接起来，革新城市交通，在每一次旅程中确保可靠、安全与舒适。",
+      "what_we_do": "我们在做什么",
+      "how_we_do": "我们如何做到",
+      "points": {
+        "networks": "在部分城市构建可靠的交通网络",
+        "connect": "将经验证的司机与常规通勤者连接",
+        "community": "基于信任与一致性建设社区",
+        "fixed_schedules": "固定日程带来可预测的服务",
+        "tech_driven": "以技术驱动的匹配与路径规划",
+        "safety_ux": "专注安全与用户体验"
+      },
+      "vision_title": "我们的愿景",
+      "vision_quote": "打造一个交通无缝、可预测且人人可及的世界，通过可靠的连接建设更强大的社区。",
+      "vision": {
+        "global_title": "全球影响",
+        "global_desc": "将我们的可靠交通网络拓展至全球城市，让高质量出行随处可得。",
+        "community_title": "社区建设",
+        "community_desc": "促进司机与乘客之间的连接，建立持久关系与更强的本地社区。",
+        "innovation_title": "创新",
+        "innovation_desc": "持续改进我们的技术与服务，提供最佳的交通体验。"
+      },
+      "values_in_action": "价值观在行动",
+      "for_drivers": "面向司机",
+      "for_riders": "面向乘客",
+      "drivers": {
+        "predictable_income_title": "可预测的收入",
+        "predictable_income_desc": "固定日程意味着可靠的收益与更好的工作生活平衡。",
+        "regular_customers_title": "常规客户",
+        "regular_customers_desc": "与重视你服务的常规乘客建立关系。",
+        "community_support_title": "社区支持",
+        "community_support_desc": "加入互相支持的专业司机网络。"
+      },
+      "riders": {
+        "reliable_service_title": "可靠服务",
+        "reliable_service_desc": "再也不用担心迟到——你的司机会准时到达。",
+        "familiar_faces_title": "熟悉面孔",
+        "familiar_faces_desc": "逐渐熟悉你的常规司机，建立长期信任。",
+        "comfort_safety_title": "舒适与安全",
+        "comfort_safety_desc": "在安全优先的保障下，自信出行。"
+      },
+      "cta_title": "加入我们的使命",
+      "cta_subtitle": "成为交通变革的一份子。无论你是司机还是乘客，帮助我们共建更紧密连接的未来。"
+    },
+    "privacy": {
+      "meta_title": "隐私政策 - FixDrive",
+      "meta_description": "FixDrive 隐私政策——了解我们如何收集、使用并保护你的个人信息。",
+      "hero_title": "隐私政策",
+      "hero_subtitle": "你的隐私与数据保护是我们的首要任务",
+      "last_updated": "最近更新：",
+      "intro_p1": "在 FixDrive，我们致力于保护你的隐私并确保你的个人信息安全。本隐私政策说明了当你使用我们的交通服务时，我们如何收集、使用、披露与保护你的信息。",
+      "intro_p2": "使用 FixDrive 即表示你同意按本政策收集与使用信息。如果你不同意我们的政策与做法，请不要使用我们的服务。",
+      "info_we_collect_title": "我们收集的信息",
+      "personal_info_title": "个人信息",
+      "personal_info_items": [
+        "姓名与联系方式",
+        "电话号码与电子邮箱地址",
+        "支付信息（安全处理）",
+        "头像照片（可选）"
+      ],
+      "usage_data_title": "使用数据",
+      "usage_data_items": ["行程历史与偏好", "位置信息（经许可）", "应用使用模式", "设备信息"],
+      "technical_data_title": "技术数据",
+      "technical_data_items": [
+        "IP 地址与设备标识符",
+        "浏览器类型与版本",
+        "操作系统信息",
+        "应用性能数据"
+      ],
+      "how_we_use_title": "我们如何使用你的信息",
+      "service_provision_title": "服务提供",
+      "service_provision_desc": "用于提供、维护和改进我们的交通服务，包括为你匹配司机与处理支付。",
+      "communication_title": "沟通",
+      "communication_desc": "向你发送关于行程与服务变更的重要更新，并回应你的咨询与支持请求。",
+      "safety_security_title": "安全与保障",
+      "safety_security_desc": "确保平台安全，核验用户身份，并防止欺诈或滥用。",
+      "analytics_title": "分析与改进",
+      "analytics_desc": "分析使用模式，改进服务，并开发更好服务社区的新功能。",
+      "legal_compliance_title": "法律合规",
+      "legal_compliance_desc": "遵守适用法律、法规与法律程序，并保护我们的权利与利益。",
+      "data_protection_title": "数据保护与安全",
+      "security_measures_title": "安全措施",
+      "security_measures_items": [
+        "对敏感数据进行端到端加密",
+        "安全的支付处理（符合 PCI DSS）",
+        "定期安全审计与更新",
+        "访问控制与身份验证"
+      ],
+      "your_rights_title": "你的权利",
+      "your_rights_items": [
+        "访问并查看你的个人数据",
+        "请求更正不准确的信息",
+        "请求删除你的账户与数据",
+        "选择不接收营销通信"
+      ],
+      "questions_title": "有关隐私的问题？",
+      "questions_subtitle": "如果你对本隐私政策或我们的数据实践有任何问题，请联系我们。"
+    },
+    "terms": {
+      "meta_title": "使用条款 - FixDrive",
+      "meta_description": "FixDrive 使用条款——阅读使用我们交通服务的条款与条件。",
+      "hero_title": "使用条款",
+      "hero_subtitle": "使用 FixDrive 服务的条款与条件",
+      "last_updated": "最近更新：",
+      "intro_p1": "欢迎使用 FixDrive！本《使用条款》（\"条款\"）规范你对由 Axivion LLC（\"我们\"）运营的交通服务、移动应用与网站（统称为\"服务\"）的使用。",
+      "intro_p2": "访问或使用我们的服务即表示你同意受本条款约束。若不同意本条款的任何部分，你将无法访问服务。",
+      "key_terms_title": "关键条款与条件",
+      "user_responsibilities_title": "用户责任",
+      "user_responsibilities_items": [
+        "提供准确的个人信息",
+        "维护账户安全",
+        "遵守当地交通法规",
+        "尊重其他用户与司机"
+      ],
+      "service_usage_title": "服务使用",
+      "service_usage_items": [
+        "仅将服务用于合法目的",
+        "不得进行骚扰或不当行为",
+        "遵循司机指引",
+        "按约定支付服务费用"
+      ],
+      "safety_liability_title": "安全与责任",
+      "safety_liability_items": [
+        "在可用时系好安全带",
+        "立即报告安全隐患",
+        "理解服务限制",
+        "遵守安全指南"
+      ],
+      "detailed_terms_title": "详细条款",
+      "acceptance_title": "条款的接受",
+      "acceptance_content": "创建账户或使用我们的服务即表示你确认已阅读、理解并同意受本条款约束。本条款适用于服务的所有用户，包括乘客与司机。",
+      "service_description_title": "服务描述",
+      "service_description_content": "FixDrive 提供一个连接乘客与司机以开展交通服务的平台。我们仅促成连接，并非运输服务提供者。司机为独立承包人，而非 FixDrive 员工。",
+      "user_accounts_title": "用户账户",
+      "user_accounts_content": "创建账户时，你必须提供准确且完整的信息。你需对维护账户凭据的机密性以及账户下发生的所有活动负责。",
+      "payment_terms_title": "付款条款",
+      "payment_terms_content": "服务费用通过我们的安全支付系统处理。除非另有说明，所有费用均不予退还。我们保留在合理通知的情况下调整价格的权利。",
+      "prohibited_uses_title": "禁止使用",
+      "prohibited_uses_content": "你不得将我们的服务用于任何非法目的，或怂恿他人从事非法行为。禁止的活动包括骚扰、欺诈、非法运输货物或任何违反适用法律的行为。",
+      "limitation_liability_title": "责任限制",
+      "limitation_liability_content": "FixDrive 的责任在法律允许的最大范围内受到限制。因你使用服务而产生的任何间接、附带、特殊或后果性损失，我们概不负责。",
+      "termination_title": "终止",
+      "termination_content": "如我们认为你的行为违反本条款或对其他用户、我们或第三方有害，我们可立即在不事先通知的情况下终止或暂停你的账户。",
+      "changes_terms_title": "条款变更",
+      "changes_terms_content": "我们保留随时修改本条款的权利。对于重大变更，我们将通过电子邮件或服务向用户通知。变更后继续使用即表示接受新条款。",
+      "important_notices_title": "重要提示",
+      "safety_first_title": "安全第一",
+      "safety_first_items": [
+        "上车前务必核验司机身份",
+        "与可信联系人共享行程详情",
+        "如有任何安全问题请立即报告",
+        "遵守所有适用的交通与安全法规"
+      ],
+      "legal_compliance_title": "法律合规",
+      "legal_compliance_items": [
+        "本条款受适用的地方法律约束",
+        "争议将通过具有约束力的仲裁解决",
+        "用户须遵守所有适用的规定",
+        "服务可用性可能因地区而异"
+      ],
+      "questions_title": "有关条款的问题？",
+      "questions_subtitle": "如果你对本使用条款有任何问题，请联系我们以获得说明。"
+    }
+  },
+  "contact_modal": {
+    "title": "联系我们",
+    "get_in_touch": {
+      "title": "保持联系",
+      "subtitle": "对 FixDrive 有疑问？我们随时为你提供帮助！通过以下任一渠道与我们联系。"
+    },
+    "contact_info": {
+      "email": "电子邮箱",
+      "phone": "电话",
+      "address": "地址",
+      "business_hours": "工作时间",
+      "business_hours_text": "周一至周五：9:00–18:00\n周六至周日：10:00–16:00"
+    },
+    "form": {
+      "title": "给我们留言",
+      "name": "姓名",
+      "name_placeholder": "你的全名",
+      "email": "电子邮箱",
+      "email_placeholder": "your.email@example.com",
+      "subject": "主题",
+      "subject_placeholder": "这是关于什么？",
+      "message": "留言",
+      "message_placeholder": "告诉我们如何帮助你……",
+      "send_button": "发送留言",
+      "required": "*",
+      "error_title": "错误",
+      "error_description": "请填写所有必填字段。"
+    }
+  }
+}

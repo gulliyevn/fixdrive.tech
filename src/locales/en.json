@@ -90,10 +90,7 @@
   },
   "company": {
     "name": "Axivion LLC",
-    "address_lines": [
-      "30 N Gould St Ste N",
-      "Sheridan, WY 82801"
-    ],
+    "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
     "contact": {
       "email": "junago@junago.net"
     }
@@ -116,9 +113,10 @@
     "tiers": {
       "free": {
         "name": "Free",
-        "perk1": "Basic ride matching",
-        "perk2": "Standard support",
-        "perk3": "Community access",
+        "perk1": "5% commission",
+        "perk2": "Basic ride matching",
+        "perk3": "Standard support",
+        "perk4": "Community access",
         "cta": "Get Started"
       },
       "plus": {
@@ -132,7 +130,7 @@
         "badge": "Most Popular",
         "name": "Premium",
         "perk1": "Guaranteed arrival",
-        "perk2": "1% commission",
+        "perk2": "2% commission",
         "perk3": "5% cashback",
         "perk4": "Scheduled bookings up to 2 weeks",
         "cta": "Upgrade to Premium"
@@ -140,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Dedicated driver option",
-        "perk2": "0% commission",
+        "perk2": "1% commission",
         "perk3": "10% cashback",
         "perk4": "VIP support",
         "perk5": "Corporate invoicing",
@@ -148,7 +146,7 @@
       },
       "meta": {
         "per_month": "per month",
-        "billed_as_year": "billed annually",
+        "billed_as_year": "Billed as {{price}} per year",
         "all_packages_include": "All packages include access to secure rides and Family profiles.",
         "family_profiles_tip": "Family profiles allow you to manage rides for your loved ones under one account."
       }
@@ -392,6 +390,35 @@
       ],
       "questions_title": "Questions About Terms?",
       "questions_subtitle": "If you have any questions about these Terms of Use, please contact us for clarification."
+    }
+  },
+  "contact_modal": {
+    "title": "Contact Us",
+    "get_in_touch": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions about FixDrive? We're here to help! Reach out to us through any of the channels below."
+    },
+    "contact_info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "business_hours": "Business Hours",
+      "business_hours_text": "Mon-Fri: 9AM-6PM\nSat-Sun: 10AM-4PM"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "name_placeholder": "Your full name",
+      "email": "Email",
+      "email_placeholder": "your.email@example.com",
+      "subject": "Subject",
+      "subject_placeholder": "What's this about?",
+      "message": "Message",
+      "message_placeholder": "Tell us how we can help you...",
+      "send_button": "Send Message",
+      "required": "*",
+      "error_title": "Error",
+      "error_description": "Please fill in all required fields."
     }
   }
 }

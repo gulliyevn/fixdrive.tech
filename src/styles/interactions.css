@@ -1,0 +1,90 @@
+/* Unified interaction states for consistent UX */
+
+/* Button hover/focus/active states */
+.btn-primary {
+  @apply bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 active:bg-primary/80 transition-all duration-200 ease-in-out;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 focus:ring-2 focus:ring-secondary/50 focus:ring-offset-2 active:bg-secondary/70 transition-all duration-200 ease-in-out;
+}
+
+.btn-outline {
+  @apply border border-input bg-background hover:bg-accent hover:text-accent-foreground focus:ring-2 focus:ring-ring focus:ring-offset-2 active:bg-accent/80 transition-all duration-200 ease-in-out;
+}
+
+.btn-ghost {
+  @apply hover:bg-accent hover:text-accent-foreground focus:ring-2 focus:ring-ring focus:ring-offset-2 active:bg-accent/80 transition-all duration-200 ease-in-out;
+}
+
+/* Link hover/focus states */
+.link-primary {
+  @apply text-primary hover:text-primary/80 focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+.link-secondary {
+  @apply text-muted-foreground hover:text-foreground focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+/* Card hover states */
+.card-interactive {
+  @apply hover:shadow-lg hover:scale-[1.02] focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-none transition-all duration-300 ease-in-out;
+}
+
+.card-subtle {
+  @apply hover:shadow-md hover:scale-[1.01] focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+/* Input focus states */
+.input-focus {
+  @apply focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+/* Navigation item states */
+.nav-item {
+  @apply hover:text-primary focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+/* Language picker item states */
+.lang-item {
+  @apply hover:bg-accent hover:text-accent-foreground focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-none transition-all duration-200 ease-in-out rounded-md;
+}
+
+/* Switch toggle states */
+.switch-interactive {
+  @apply focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+/* Modal overlay states */
+.modal-overlay {
+  @apply focus:outline-none transition-all duration-200 ease-in-out;
+}
+
+/* Smooth transitions for all interactive elements */
+.interactive {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+.interactive-slow {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Focus visible for better accessibility */
+.focus-visible {
+  @apply focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .interactive,
+  .interactive-slow,
+  .card-interactive,
+  .card-subtle {
+    @apply transition-none;
+  }
+
+  .card-interactive:hover,
+  .card-subtle:hover {
+    @apply scale-100;
+  }
+}
