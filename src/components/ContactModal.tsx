@@ -23,7 +23,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
       const body = encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`,
       );
-      window.location.href = `mailto:junago@junago.net?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:fixdrive@axivionllc.com?subject=${subject}&body=${body}`;
       setFormData({ name: '', email: '', subject: '', message: '' });
       onClose();
     } else {
@@ -62,7 +62,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                 <p className="font-medium text-foreground">
                   {t('contact_modal.contact_info.email')}
                 </p>
-                <p className="text-sm text-muted-foreground">junago@junago.net</p>
+                <p className="text-sm text-muted-foreground">fixdrive@axivionllc.com</p>
               </div>
             </motion.div>
             <motion.div

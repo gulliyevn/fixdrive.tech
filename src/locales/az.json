@@ -16,9 +16,9 @@
     }
   },
   "hero": {
-    "title": "Bir toxunuşla, zirvədəsən.",
-    "line1": "Bir toxunuş.",
-    "line2": "Və sən zirvədəsən.",
+    "title": "Səfər bir dəqiqə çəkir. Etibar sonsuzdur.",
+    "line1": "Səfər bir dəqiqə çəkir.",
+    "line2": "Etibar sonsuzdur.",
     "subtitle": "FixDrive sizi təsdiqlənmiş sürücülərlə sabit qrafiklər üzrə birləşdirir — gündəlik həyat üçün etibarlılıq, təhlükəsizlik və komfort.",
     "availability_ribbon": "Seçilmiş şəhərlərdə mövcuddur • Pilot proqramlar və korporativ tərəfdaşlıqlar",
     "become_driver": "Sürücü ol"
@@ -92,7 +92,7 @@
     "name": "Axivion LLC",
     "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
     "contact": {
-      "email": "junago@junago.net"
+      "email": "fixdrive@axivionllc.com"
     }
   },
   "footer": {

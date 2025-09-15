@@ -41,12 +41,32 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-card border-t pt-16 pb-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
-          <div className="lg:col-span-2">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+          {/* Row 1: Logo (left) */}
+          <div className="col-span-1 lg:col-span-2">
             <Logo />
             <p className="text-muted-foreground mt-4 max-w-sm">{t('footer.tagline')}</p>
           </div>
-          <div>
+
+          {/* Row 1: Follow Us (mobile only, right of logo) */}
+          <div className="col-span-1 block lg:hidden">
+            <h4 className="font-semibold text-foreground mb-4">{t('footer.follow_title')}</h4>
+            <div className="flex space-x-4">
+              {socialLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.href}
+                  aria-label={link.label}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <link.icon className="w-6 h-6" />
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Row 2: Pages (left) */}
+          <div className="col-span-1 lg:col-span-1 lg:col-start-3">
             <h4 className="font-semibold text-foreground mb-4">{t('footer.pages_title')}</h4>
             <ul className="space-y-3">
               <li>
@@ -87,11 +107,14 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-          <div>
+
+          {/* Row 2: Contact (right) */}
+          <div className="col-span-1 lg:col-span-1 lg:col-start-4">
             <h4 className="font-semibold text-foreground mb-4">{t('footer.contact_title')}</h4>
             <ul className="space-y-3">
-              <li className="flex items-center text-muted-foreground">
-                <Mail className="w-5 h-5 mr-3 text-primary" /> {t('company.contact.email')}
+              <li className="flex items-start text-muted-foreground flex-wrap">
+                <Mail className="w-5 h-5 mr-3 text-primary mt-0.5 flex-shrink-0" />
+                <span className="break-all whitespace-normal">{t('company.contact.email')}</span>
               </li>
               <li className="flex items-center text-muted-foreground">
                 <Building className="w-5 h-5 mr-3 text-primary" /> {t('company.name')}
@@ -104,7 +127,9 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-          <div>
+
+          {/* Desktop only: Follow Us as original last column */}
+          <div className="hidden lg:block lg:col-span-1 lg:col-start-5">
             <h4 className="font-semibold text-foreground mb-4">{t('footer.follow_title')}</h4>
             <div className="flex space-x-4">
               {socialLinks.map((link, index) => (

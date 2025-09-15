@@ -16,9 +16,9 @@
     }
   },
   "hero": {
-    "title": "Um toque e você está no topo.",
-    "line1": "Um toque.",
-    "line2": "E você está no topo.",
+    "title": "Uma viagem leva um minuto. A confiança é infinita.",
+    "line1": "Uma viagem leva um minuto.",
+    "line2": "A confiança é infinita.",
     "subtitle": "A FixDrive conecta você a motoristas verificados em horários fixos — confiabilidade, segurança e conforto para o dia a dia.",
     "availability_ribbon": "Disponível em cidades selecionadas • Programas-piloto e parcerias corporativas",
     "become_driver": "Tornar-se motorista"
@@ -92,7 +92,7 @@
     "name": "Axivion LLC",
     "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
     "contact": {
-      "email": "junago@junago.net"
+      "email": "fixdrive@axivionllc.com"
     }
   },
   "footer": {

@@ -16,9 +16,9 @@
     }
   },
   "hero": {
-    "title": "轻点一下，你就领先。",
-    "line1": "轻点一下。",
-    "line2": "你就领先。",
+    "title": "一次出行只需一分钟。信任却无穷无尽。",
+    "line1": "一次出行只需一分钟。",
+    "line2": "信任却无穷无尽。",
     "subtitle": "FixDrive 按固定日程为你连接经过验证的司机——为日常生活提供可靠、安全与舒适。",
     "availability_ribbon": "适用于部分城市 • 试点项目与企业合作",
     "become_driver": "成为司机"
@@ -92,7 +92,7 @@
     "name": "Axivion LLC",
     "address_lines": ["30 N Gould St Ste N", "Sheridan, WY 82801"],
     "contact": {
-      "email": "junago@junago.net"
+      "email": "fixdrive@axivionllc.com"
     }
   },
   "footer": {

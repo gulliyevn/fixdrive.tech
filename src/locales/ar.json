@@ -16,9 +16,9 @@
     }
   },
   "hero": {
-    "title": "نقرة واحدة وأنت في القمة",
-    "line1": "نقرة واحدة.",
-    "line2": "وأنت في القمة.",
+    "title": "الرحلة تستغرق دقيقة. الثقة لا نهائية.",
+    "line1": "الرحلة تستغرق دقيقة.",
+    "line2": "الثقة لا نهائية.",
     "subtitle": "FixDrive يربطك بسائقين موثوقين على جداول ثابتة — موثوقية وأمان وراحة للحياة اليومية.",
     "availability_ribbon": "متوفر في مدن مختارة • برامج تجريبية وشراكات شركات",
     "become_driver": "كن سائقاً"
@@ -92,7 +92,7 @@
     "name": "Axivion LLC",
     "address_lines": ["٣٠ N Gould St Ste N", "Sheridan, WY ٨٢٨٠١"],
     "contact": {
-      "email": "junago@junago.net"
+      "email": "fixdrive@axivionllc.com"
     }
   },
   "footer": {
