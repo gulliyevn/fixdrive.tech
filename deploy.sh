@@ -34,18 +34,29 @@ sshpass -p "$SERVER_PASS" rsync -avz --delete dist/ "$SERVER_USER@$SERVER_HOST:$
 echo "✅ Assets have clean names without hashes"
 
 # Update nginx configuration
-echo "🔧 Updating nginx configuration..."
+echo "🔧 Updating nginx configuration (HTTP->HTTPS + 8080 fallback)..."
 sshpass -p "$SERVER_PASS" ssh -o StrictHostKeyChecking=no "$SERVER_USER@$SERVER_HOST" "cat >/etc/nginx/sites-available/fixdrive <<'CONF'
+# Redirect HTTP to HTTPS
 server {
   listen 80;
-  listen 8080;
-  server_name $DOMAIN_NAME www.$DOMAIN_NAME _;
+  server_name $DOMAIN_NAME www.$DOMAIN_NAME;
+  return 301 https://$DOMAIN_NAME\$request_uri;
+}
+
+# Primary HTTPS server
+server {
+  listen 443 ssl http2;
+  server_name $DOMAIN_NAME www.$DOMAIN_NAME;
   root /var/www/fixdrive;
   index index.html;
 
+  ssl_certificate /etc/letsencrypt/live/$DOMAIN_NAME/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/$DOMAIN_NAME/privkey.pem;
+  ssl_protocols TLSv1.2 TLSv1.3;
+
   # Redirect www to non-www
   if (\$host = www.$DOMAIN_NAME) {
-    return 301 http://$DOMAIN_NAME\$request_uri;
+    return 301 https://$DOMAIN_NAME\$request_uri;
   }
 
   location = / {
@@ -65,7 +76,19 @@ server {
   add_header X-Content-Type-Options nosniff always;
   add_header Referrer-Policy \"strict-origin-when-cross-origin\" always;
   add_header Permissions-Policy \"camera=(), microphone=(), geolocation=(self)\" always;
+  add_header Strict-Transport-Security \"max-age=31536000; includeSubDomains\" always;
   add_header Content-Security-Policy \"default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://snap.licdn.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'\" always;
+}
+
+# Fallback HTTP on 8080 (direct IP access)
+server {
+  listen 8080;
+  server_name _;
+  root /var/www/fixdrive;
+  index index.html;
+
+  location = / { try_files /index.html =404; }
+  location / { try_files \$uri \$uri/ /index.html; }
 }
 CONF
 nginx -t && systemctl restart nginx"
