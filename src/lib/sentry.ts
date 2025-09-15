@@ -2,7 +2,10 @@ import * as Sentry from '@sentry/react';
 
 export function initSentry() {
   try {
-    const dsn = import.meta.env?.VITE_SENTRY_DSN;
+    // Vite provides import.meta.env typed via vite/client. Ensure types are available.
+    const dsn = (import.meta as unknown as { env?: Record<string, string | undefined> }).env?.VITE_SENTRY_DSN as
+      | string
+      | undefined;
     if (!dsn || dsn === 'YOUR_SENTRY_DSN') {
       console.log('Sentry DSN not configured, skipping initialization');
       return;

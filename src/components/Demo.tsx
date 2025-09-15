@@ -79,8 +79,12 @@ const Demo: React.FC = () => {
                   autoPlay
                   onEnded={handleCloseVideo}
                   onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.nextElementSibling.style.display = 'flex';
+                    const videoEl = e.currentTarget; // HTMLVideoElement
+                    videoEl.style.display = 'none';
+                    const fallbackEl = videoEl.nextElementSibling as HTMLElement | null;
+                    if (fallbackEl) {
+                      fallbackEl.style.display = 'flex';
+                    }
                   }}
                 >
                   <source src="/videos/demo.mp4" type="video/mp4" />
