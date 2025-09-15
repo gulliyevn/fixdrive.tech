@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "免费",
-        "perk1": "5% 佣金",
+        "perk1": "12% 佣金",
         "perk2": "基础行程匹配",
         "perk3": "标准支持",
         "perk4": "社区访问",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "优先预订",
-        "perk2": "3% 佣金",
+        "perk2": "10% 佣金",
         "perk3": "2% 返现",
         "cta": "升级到 Plus"
       },
@@ -130,7 +130,7 @@
         "badge": "最受欢迎",
         "name": "Premium",
         "perk1": "准时到达保障",
-        "perk2": "2% 佣金",
+        "perk2": "8% 佣金",
         "perk3": "5% 返现",
         "perk4": "可预约至多 2 周后的行程",
         "cta": "升级到 Premium"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "专属司机选项",
-        "perk2": "1% 佣金",
+        "perk2": "6% 佣金",
         "perk3": "10% 返现",
         "perk4": "VIP 支持",
         "perk5": "企业开票",

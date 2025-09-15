@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "Ücretsiz",
-        "perk1": "%5 komisyon",
+        "perk1": "%12 komisyon",
         "perk2": "Temel yolculuk eşleştirme",
         "perk3": "Standart destek",
         "perk4": "Topluluk erişimi",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "Öncelikli rezervasyon",
-        "perk2": "%3 komisyon",
+        "perk2": "%10 komisyon",
         "perk3": "%2 nakit iade",
         "cta": "Plus'a yükselt"
       },
@@ -130,7 +130,7 @@
         "badge": "En popüler",
         "name": "Premium",
         "perk1": "Garantili varış",
-        "perk2": "%2 komisyon",
+        "perk2": "%8 komisyon",
         "perk3": "%5 nakit iade",
         "perk4": "2 haftaya kadar planlı rezervasyon",
         "cta": "Premium'a yükselt"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Atanmış sürücü seçeneği",
-        "perk2": "%1 komisyon",
+        "perk2": "%6 komisyon",
         "perk3": "%10 nakit iade",
         "perk4": "VIP destek",
         "perk5": "Kurumsal faturalama",

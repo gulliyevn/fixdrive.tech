@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "Pulsuz",
-        "perk1": "5% komissiya",
+        "perk1": "12% komissiya",
         "perk2": "Əsas səfər uyğunlaşdırması",
         "perk3": "Standart dəstək",
         "perk4": "İcma girişi",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "Üstünlük verilən bron",
-        "perk2": "3% komissiya",
+        "perk2": "10% komissiya",
         "perk3": "2% keşbek",
         "cta": "Plus-a yüksəlt"
       },
@@ -130,7 +130,7 @@
         "badge": "Ən populyar",
         "name": "Premium",
         "perk1": "Zəmanətli çatma",
-        "perk2": "2% komissiya",
+        "perk2": "8% komissiya",
         "perk3": "5% keşbek",
         "perk4": "2 həftəyədək planlaşdırılmış bronlar",
         "cta": "Premium-a yüksəlt"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Təyin olunmuş sürücü seçimi",
-        "perk2": "1% komissiya",
+        "perk2": "6% komissiya",
         "perk3": "10% keşbek",
         "perk4": "VIP dəstək",
         "perk5": "Korporativ hesablaşma",
@@ -192,7 +192,7 @@
       "meta_title": "Haqqımızda - FixDrive",
       "meta_description": "FixDrive-ın etibarlı, təhlükəsiz və rahat səfər xidməti ilə nəqliyyatı necə dəyişdirdiyini öyrənin.",
       "hero_title_prefix": "Haqqımızda",
-      "hero_subtitle": "Etibarlılıq, təhlükəsiz və rahat səfər xidməti ilə nəqliyyatı yeniləyirik",
+      "hero_subtitle": "Etibarlılıq, təhlükəsizlik və rahat səfər xidməti ilə nəqliyyatı yeniləyirik",
       "story_title": "Hekayəmiz",
       "story_p1": "FixDrive sadə bir müşahidədən yarandı: ənənəvi səfər paylaşma xidmətləri tez-tez gündəlik səyahətlər üçün lazım olan etibarlılıq və şəxsi yanaşmadan məhrum olur. Biz fərqli bir şey yaratmaq fürsəti gördük — insanları sabit cədvəl üzrə etibarlı sürücülərlə birləşdirən xidmət.",
       "story_p2": "Axivion LLC tərəfindən təsis olunan FixDrive-da hesab edirik ki, nəqliyyat proqnozlaşdırıla bilən, təhlükəsiz və rahat olmalıdır. Platformamız səfər paylaşmanın rahatlığı ilə ənənəvi nəqliyyat xidmətlərinin etibarlılığı arasında körpü yaradır.",

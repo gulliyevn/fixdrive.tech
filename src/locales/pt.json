@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "Gratuito",
-        "perk1": "5% de comissão",
+        "perk1": "12% de comissão",
         "perk2": "Correspondência básica de viagens",
         "perk3": "Suporte padrão",
         "perk4": "Acesso à comunidade",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "Reserva prioritária",
-        "perk2": "3% de comissão",
+        "perk2": "10% de comissão",
         "perk3": "2% de cashback",
         "cta": "Atualizar para Plus"
       },
@@ -130,7 +130,7 @@
         "badge": "Mais popular",
         "name": "Premium",
         "perk1": "Chegada garantida",
-        "perk2": "2% de comissão",
+        "perk2": "8% de comissão",
         "perk3": "5% de cashback",
         "perk4": "Reservas programadas de até 2 semanas",
         "cta": "Atualizar para Premium"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Opção de motorista dedicado",
-        "perk2": "1% de comissão",
+        "perk2": "6% de comissão",
         "perk3": "10% de cashback",
         "perk4": "Suporte VIP",
         "perk5": "Faturação corporativa",

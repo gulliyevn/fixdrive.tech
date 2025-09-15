@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "Gratis",
-        "perk1": "5% di commissione",
+        "perk1": "12% di commissione",
         "perk2": "Abbinamento di base dei viaggi",
         "perk3": "Supporto standard",
         "perk4": "Accesso alla community",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "Prenotazione prioritaria",
-        "perk2": "3% di commissione",
+        "perk2": "10% di commissione",
         "perk3": "2% di cashback",
         "cta": "Passa a Plus"
       },
@@ -130,7 +130,7 @@
         "badge": "Il più popolare",
         "name": "Premium",
         "perk1": "Arrivo garantito",
-        "perk2": "2% di commissione",
+        "perk2": "8% di commissione",
         "perk3": "5% di cashback",
         "perk4": "Prenotazioni programmate fino a 2 settimane",
         "cta": "Passa a Premium"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Opzione autista dedicato",
-        "perk2": "1% di commissione",
+        "perk2": "6% di commissione",
         "perk3": "10% di cashback",
         "perk4": "Supporto VIP",
         "perk5": "Fatturazione aziendale",
