@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "Kostenlos",
-        "perk1": "5% Provision",
+        "perk1": "12% Provision",
         "perk2": "Einfache Fahrtvermittlung",
         "perk3": "Standard-Support",
         "perk4": "Community-Zugang",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "Bevorzugte Buchung",
-        "perk2": "3% Provision",
+        "perk2": "10% Provision",
         "perk3": "2% Cashback",
         "cta": "Upgrade auf Plus"
       },
@@ -130,7 +130,7 @@
         "badge": "Am beliebtesten",
         "name": "Premium",
         "perk1": "Garantierte Ankunft",
-        "perk2": "2% Provision",
+        "perk2": "8% Provision",
         "perk3": "5% Cashback",
         "perk4": "Geplante Buchungen bis zu 2 Wochen",
         "cta": "Upgrade auf Premium"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Persönlicher Fahrer möglich",
-        "perk2": "1% Provision",
+        "perk2": "6% Provision",
         "perk3": "10% Cashback",
         "perk4": "VIP-Support",
         "perk5": "Firmenabrechnung",

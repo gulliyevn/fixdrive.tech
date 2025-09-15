@@ -113,7 +113,7 @@
     "tiers": {
       "free": {
         "name": "Free",
-        "perk1": "5% commission",
+        "perk1": "12% commission",
         "perk2": "Basic ride matching",
         "perk3": "Standard support",
         "perk4": "Community access",
@@ -122,7 +122,7 @@
       "plus": {
         "name": "Plus",
         "perk1": "Priority booking",
-        "perk2": "3% commission",
+        "perk2": "10% commission",
         "perk3": "2% cashback",
         "cta": "Upgrade to Plus"
       },
@@ -130,7 +130,7 @@
         "badge": "Most Popular",
         "name": "Premium",
         "perk1": "Guaranteed arrival",
-        "perk2": "2% commission",
+        "perk2": "8% commission",
         "perk3": "5% cashback",
         "perk4": "Scheduled bookings up to 2 weeks",
         "cta": "Upgrade to Premium"
@@ -138,7 +138,7 @@
       "premium_plus": {
         "name": "Premium Plus",
         "perk1": "Dedicated driver option",
-        "perk2": "1% commission",
+        "perk2": "6% commission",
         "perk3": "10% cashback",
         "perk4": "VIP support",
         "perk5": "Corporate invoicing",
