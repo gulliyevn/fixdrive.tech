@@ -79,11 +79,11 @@ const Demo: React.FC = () => {
                   autoPlay
                   onEnded={handleCloseVideo}
                   onError={(e) => {
-                    const videoEl = e.currentTarget; // HTMLVideoElement
+                    const videoEl = e.currentTarget as HTMLVideoElement;
                     videoEl.style.display = 'none';
-                    const fallbackEl = videoEl.nextElementSibling as HTMLElement | null;
-                    if (fallbackEl) {
-                      fallbackEl.style.display = 'flex';
+                    const next = videoEl.nextElementSibling;
+                    if (next && next instanceof HTMLElement) {
+                      next.style.display = 'flex';
                     }
                   }}
                 >
